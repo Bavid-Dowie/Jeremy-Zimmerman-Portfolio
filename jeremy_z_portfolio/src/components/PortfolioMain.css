@@ -1,0 +1,10 @@
+.main__body {
+
+  height: 100vh;
+}
+
+.main__header {
+  background: orange;
+  margin: 0 auto;
+  padding: 2vh;
+}
