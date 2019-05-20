@@ -36,16 +36,20 @@ function ButtonGH() {
 export default class Footer extends Component {
   render() {
     return (
-      <div className='footer__style'>
-      <br/>
-        This is the footer.
-      <br/>
-      <br/>
-      <ButtonGH />
-      <ButtonFB />
-      <ButtonIG />
-      <br/>
-      <br/>
+      <div className='footer'>
+        <footer>
+          <div class='footerLinks'>
+            <ul>
+              <li><a href='https://www.linkedin.com/in/jeremy-zimmerman-dev/'>LinkedIn</a></li>
+              <li><a href='https://codepen.io/jtzimmerman/'>CodePen</a></li>
+              <li><a href='https://github.com/Bavid-Dowie.com/jeremyzimmermanmusic/'>GitHub</a></li>
+              <li><a href='jtzimmerm@gmail.com'>Contact Me</a></li>
+            </ul>
+          </div>
+          <div class='copyright'>
+            <p>Copyright 2019</p>
+          </div>
+        </footer>
       </div>
     )
   }
