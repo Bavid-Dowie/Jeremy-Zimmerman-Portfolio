@@ -14,7 +14,9 @@ export default class ParallaxDiv2 extends Component {
 
   render() {
     return (
-      <div className='parallax2-background' />
+      <div className='parallax2-background'>
+        <img className='bio-photo' src='https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/master/webdev_profileimg.jpg?raw=true' alt='jeremyz' />
+      </div>
       )
     }
 

@@ -44,7 +44,7 @@
 }
 
 #header__body {
-  background: #1f1e1e;
+  background: #353835;
   height: 100vh;
   position: absolute;
   width: calc(60% - 18%);
@@ -60,7 +60,7 @@
   top: 0;
   width: 5%;
   left: 83%;
-  border-top: 100vh solid #1f1e1e;
+  border-top: 100vh solid #353835;
   border-right: 45vw solid transparent;
   border-left: 5vw solid transparent;
 }
@@ -200,7 +200,7 @@
 
 .glitch .back:after {
   height: .1em;
-  background: #1f1e1e;
+  background: #353835;
   animation: glitch-back-after 3s infinite;
   -webkit-animation: glitch-back-after 3s infinite;
 }
@@ -227,7 +227,7 @@
 .glitch .back:before {
   height: .4em;
   width: 2em;
-  background: #1f1e1e;
+  background: #353835;
   transform: translate(4em);
   animation: glitch-back-before 3s infinite;
   -webkit-transform: translate(4em);
