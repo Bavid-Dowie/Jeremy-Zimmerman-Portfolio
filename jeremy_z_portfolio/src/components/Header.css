@@ -58,8 +58,8 @@
   content: '';
   position: absolute;
   top: 0;
-  width: 5%;
-  left: 83%;
+  width: 10%;
+  left: 88%;
   border-top: 100vh solid #1f1e1e;
   border-right: 45vw solid transparent;
   border-left: 5vw solid transparent;
@@ -76,12 +76,12 @@
 #header__title2:hover:after {
   content: attr(data-hover);
   font-size: 7vw;
-  font-weight: bolder;
+  font-weight: 400;
 }
 
 .indicator {
   position: relative;
-  margin-left: 41vw;
+  margin-left:50vw;
   margin-right: 50vw;
   bottom: 2vh;
   width: 35px;
