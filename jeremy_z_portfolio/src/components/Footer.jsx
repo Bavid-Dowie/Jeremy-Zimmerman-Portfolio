@@ -7,8 +7,8 @@ function ButtonFB() {
   return (
     <AwesomeButtonSocial
       cssModule={AwesomeButtonStyles}
-      type="facebook"
-      url="https://www.facebook.com/jeremy.zimmerman.754"
+      type='facebook'
+      url='https://www.facebook.com/jeremy.zimmerman.754'
     />
   );
 }
@@ -17,8 +17,8 @@ function ButtonIG() {
   return (
     <AwesomeButtonSocial
       cssModule={AwesomeButtonStyles}
-      type="instagram"
-      url="https://www.instagram.com/jeremyzimmermanmusic/"
+      type='instagram'
+      url='https://www.instagram.com/jeremyzimmermanmusic/'
     />
   );
 }
@@ -27,8 +27,8 @@ function ButtonGH() {
   return (
     <AwesomeButtonSocial
       cssModule={AwesomeButtonStyles}
-      type="github"
-      url="https://www.https://github.com/Bavid-Dowie.com/jeremyzimmermanmusic/"
+      type='github'
+      url='https://www.https://github.com/Bavid-Dowie.com/jeremyzimmermanmusic/'
     />
   );
 }

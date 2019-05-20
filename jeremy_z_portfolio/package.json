@@ -35,5 +35,8 @@
         "env": {},
         "componentsDefaultDirectory": "components/{name}",
         "packageManager": "npm"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.0"
     }
 }

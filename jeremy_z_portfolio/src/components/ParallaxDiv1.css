@@ -1,0 +1,8 @@
+.parallax1-background {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  background-image: url('https://raw.githubusercontent.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/master/brooklyngraffiti.jpg');
+  background-size: cover;
+}

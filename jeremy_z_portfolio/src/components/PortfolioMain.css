@@ -1,10 +1,19 @@
-.main__body {
-
+.portfolio__body {
   height: 100vh;
+  font-weight: bolder;
+  font-family: 'Special Elite', cursive;
+  background: #868080;
+  margin-top: transparent;
+  padding: 1%;
+  font-size: 3vw;
+  text-align: center;
+  height: 50%;
 }
 
-.main__header {
-  background: orange;
-  margin: 0 auto;
-  padding: 2vh;
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 15%;
+  background: #353535;
 }

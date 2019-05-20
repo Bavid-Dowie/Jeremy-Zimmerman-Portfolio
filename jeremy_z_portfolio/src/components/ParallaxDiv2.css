@@ -1,0 +1,42 @@
+.parallax2-background {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: url('https://raw.githubusercontent.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/master/brooklyngraffiti.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* @keyframes parallax1-background {
+  0% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+  100% {
+    transform: translateY(15em);
+    -webkit-transform: translateY(15em);
+    -moz-transform: translateY(15em);
+    -ms-transform: translateY(15em);
+    -o-transform: translateY(15em);
+  }
+} */
+
+@keyframes parallax2-background {
+  0% {
+    transform: translateY(1em);
+    -webkit-transform: translateY(1em);
+    -moz-transform: translateY(1em);
+    -ms-transform: translateY(1em);
+    -o-transform: translateY(1em);
+}
+  100% {
+    transform: translateY(20em);
+    -webkit-transform: translateY(20em);
+    -moz-transform: translateY(20em);
+    -ms-transform: translateY(20em);
+    -o-transform: translateY(20em);
+  }
+}
