@@ -44,7 +44,7 @@
 }
 
 #header__body {
-  background: #353835;
+  background: #1f1e1e;
   height: 100vh;
   position: absolute;
   width: calc(60% - 18%);
@@ -60,7 +60,7 @@
   top: 0;
   width: 5%;
   left: 83%;
-  border-top: 100vh solid #353835;
+  border-top: 100vh solid #1f1e1e;
   border-right: 45vw solid transparent;
   border-left: 5vw solid transparent;
 }
@@ -194,13 +194,13 @@
 .glitch .back:before {
   display: block;
   content: "";
-  background: #353535;
+  background: #1f1e1e;
   width: 2.5em;
 }
 
 .glitch .back:after {
   height: .1em;
-  background: #353835;
+  background: #1f1e1e;
   animation: glitch-back-after 3s infinite;
   -webkit-animation: glitch-back-after 3s infinite;
 }
@@ -227,7 +227,7 @@
 .glitch .back:before {
   height: .4em;
   width: 2em;
-  background: #353835;
+  background: #1f1e1e;
   transform: translate(4em);
   animation: glitch-back-before 3s infinite;
   -webkit-transform: translate(4em);

@@ -8,7 +8,11 @@
   padding: 1%;
   font-size: 3vw;
   text-align: center;
-  /* height: 50%; */
+  height: 105vh;
+}
+
+.main-header {
+  margin: 5%;
 }
 
 .projects {
@@ -31,8 +35,8 @@
   width: 40vw;
   height: 36vh;
   border-radius: 15px;
-  margin-top: 4vh;
-  margin-bottom: 16vh;
+  margin-top: 10vh;
+  margin-bottom: 6vh;
   line-height: 150px;
   color: #ccc;
   font-weight: bold;

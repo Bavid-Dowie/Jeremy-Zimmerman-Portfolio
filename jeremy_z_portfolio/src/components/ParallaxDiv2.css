@@ -12,6 +12,7 @@
   height: 60%;
   width: auto;
   background: #000;
+  border: 2px solid black;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -22,6 +23,19 @@
 .bio-photo img {
   height: 100%;
   width: auto;
+}
+
+#skillsa {
+  height: 35%;
+  width: auto;
+  margin: 10% 1%;
+}
+
+#skillsb {
+  height: 35%;
+  width: auto;
+  width: auto;
+  margin: 10% 1%;
 }
 
 /* @keyframes parallax1-background {
