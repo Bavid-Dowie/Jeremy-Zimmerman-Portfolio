@@ -28,14 +28,14 @@ footer {
 	display: inline;
 }
 .footerLinks a {
-  color: #ccc;
+  color: #005B60;
 	text-decoration: none;
 }
 .copyright {
   text-align: center;
 }
 .copyright p {
-	color: #ccc;
+	color: #005B60;
   font-size: 1rem;
   padding-bottom: 2%;
 }
@@ -47,5 +47,5 @@ nav ul li a {
 	color: grey;
 }
 nav ul li a:hover {
-	color: #2a70d9;
+	color: #005B60;
 }

@@ -2,24 +2,28 @@
   height: 100vh;
   font-weight: bolder;
   font-family: 'Special Elite', cursive;
-  color: #ccc;
-  background: #1f1e1e;
+  color: #005B60;
+  background: #333232;
   margin-top: transparent;
   padding: 1%;
   font-size: 3vw;
   text-align: center;
   height: 105vh;
 }
-
 .main-header {
   margin: 5%;
 }
-
+.webPlayerText {
+  text-align: left;
+  margin: -15% 5%;
+  font-size: 10%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
 .projects {
   padding: 0;
   margin: 0;
   list-style: none;
-
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -30,7 +34,7 @@
   justify-content: space-around;
 }
 #col {
-  background: #ccc;
+  background: #005B60;
   padding: 0px;
   width: 40vw;
   height: 36vh;
@@ -38,7 +42,7 @@
   margin-top: 10vh;
   margin-bottom: 6vh;
   line-height: 150px;
-  color: #ccc;
+  color: #005B60;
   font-weight: bold;
   font-size: 3em;
   text-align: center;
@@ -47,7 +51,6 @@
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
 }
-
 img {
   width: 100%;
   border-radius: 15px;
@@ -56,32 +59,27 @@ img {
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
 }
-
 @media (max-width: 800px) {
   .col {
     flex: 50%;
     max-width: 50%;
   }
 }
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
+@media (max-width: 200px) {
   .col {
     flex: 100%;
     max-width: 100%;
   }
 }
-
-@media (max-width: 400px) {
+@media (max-width: 200px) {
   .col {
     display: block;
   }
 }
-
 .sticky {
   position: fixed;
   top: 0;
   width: 100vw;
   height: 15%;
-  background: #353535;
+  background: #1f1e1e;
 }

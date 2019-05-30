@@ -2,7 +2,7 @@
   font-weight: bolder;
   font-family: 'Special Elite', cursive;
   font-size: 7vw;
-  color: #ccc;
+  color: #005B60;
   padding: 10% 20%;
   border-radius: 5px;
   margin: 0%;
@@ -23,7 +23,7 @@
   font-weight: bolder;
   font-family: 'Special Elite', cursive;
   font-size: 7vw;
-  color: #ccc;
+  color: #005B60;
   padding: 3% 20.5% 20% 18%;
   border-radius: 5px;
   margin: 1%;
@@ -37,7 +37,7 @@
   font-weight: bolder;
   font-family: 'Special Elite', cursive;
   font-size: 7vw;
-  color: #ccc;
+  color: #005B60;
   padding: 10% 20.5% 15% 18%;
   border-radius: 5px;
   margin: 0 1%;
@@ -58,10 +58,10 @@
   content: '';
   position: absolute;
   top: 0;
-  width: 10%;
-  left: 88%;
+  width: 4%;
+  left: 84.5%;
   border-top: 100vh solid #1f1e1e;
-  border-right: 45vw solid transparent;
+  border-right: 36vw solid transparent;
   border-left: 5vw solid transparent;
 }
 
@@ -79,13 +79,19 @@
   font-weight: 400;
 }
 
+div.indicator {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+}
+
 .indicator {
   position: relative;
-  margin-left:50vw;
+  margin-left:41vw;
   margin-right: 50vw;
-  bottom: 2vh;
-  width: 35px;
-  height: 35px;
+  bottom: 0;
+  height: 4vh;
+  width: 2vw;
   background: none;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
@@ -103,8 +109,8 @@
   display: block;
   box-sizing: border-box;
   border: none;
-  border-right: 3px solid #5a5959;
-  border-bottom: 3px solid #a1a1a1;
+  border-right: 3px solid #005B60;
+  border-bottom: 3px solid #005B60;
   animation: animate 1s linear infinite;
   -webkit-animation: animate 1s linear infinite;
 }
@@ -141,7 +147,7 @@
 
 @keyframes animate {
   0% {
-    border-color: #fff;
+    border-color: #dd00ff;
     transform: translate(0,0);
     -webkit-transform: translate(0,0);
     -moz-transform: translate(0,0);
@@ -149,7 +155,7 @@
     -o-transform: translate(0,0);
 }
   20% {
-    border-color: #fff;
+    border-color: #dd00ff;
     transform: translate(15px,15px);
     -webkit-transform: translate(15px,15px);
     -moz-transform: translate(15px,15px);
@@ -157,7 +163,7 @@
     -o-transform: translate(15px,15px);
 }
   20.1%,100% {
-    border-color: #333333;
+    border-color: #005B60;
   }
 }
 
