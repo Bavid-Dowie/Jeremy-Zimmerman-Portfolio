@@ -8,6 +8,10 @@
   font-family: 'Special Elite', cursive;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1 {
   margin: transparent;
   margin-left: -1%;

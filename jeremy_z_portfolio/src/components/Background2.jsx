@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
-import './ParallaxDiv2.css'
+import './Background2.css'
 
 // const parallax = document.getElementsByClassName('')
 // componentDidMount() {
 //   window.addEventListener('scroll', function () {
 //     let offset = window.pageYOffset
-// ParallaxDiv2.style.backgroundPositionY = offset * 0.7 + 'px'
+// Background2.style.backgroundPositionY = offset * 0.7 + 'px'
 //   })
 // }
 
-export default class ParallaxDiv2 extends Component {
+export default class Background2 extends Component {
 
 
   render() {

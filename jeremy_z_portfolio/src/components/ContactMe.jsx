@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import './PortfolioProjects.css'
+import './ContactMe.css'
 
-export default class PortfolioProjects extends Component {
+export default class ContactMe extends Component {
   render() {
     return (
       <div className="projects">
