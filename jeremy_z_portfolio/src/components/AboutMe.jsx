@@ -5,8 +5,8 @@ export default class AboutMe extends Component {
   render() {
     return (
       <div
-        id='aboutme_jump1'
-        className='second-main'>
+        id='aboutme_jump'
+        className='about-me'>
       </div>
     )
   }

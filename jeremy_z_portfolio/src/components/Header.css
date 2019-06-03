@@ -1,15 +1,15 @@
 a {
   margin: 0%;
   text-decoration: none;
+  display: block;
 }
 
 #header__title1 {
-  font-weight: bolder;
   font-family: 'Special Elite', cursive;
-  font-size: 7vw;
+  font-size: 6.5vw;
   color: #005B60;
   padding: 0% 0% 0% 0%;
-  margin: 8% 13.5% 8% 33.5%;
+  margin: 8% 0% 8% 34.5%;
   animation: glitch-back 4s infinite;
   transform: translate(1%);
   -webkit-transform: translate(1%);
@@ -20,26 +20,26 @@ a {
 }
 
 #header__title2 {
-  font-weight: bolder;
   font-family: 'Special Elite', cursive;
-  font-size: 7vw;
+  font-size: 6.5vw;
+  font-weight: 400;
   color: #005B60;
-  margin: 6.5% 51% 21% 20%;
+  margin: 6.5% 0 21% 1%;
 }
 
 #header__title3 {
-  font-weight: bolder;
   font-family: 'Special Elite', cursive;
-  font-size: 7vw;
+  font-size: 6.5vw;
   color: #005B60;
   margin: 10% 51% 16% 6%;
 }
 
 #header__body {
   background: #1f1e1e;
-  height: 100vh;
-  position: absolute;
   width: calc(51% - 6%);
+  height: 100vh;
+  padding: 0 6ch;
+  position: absolute;
 }
 
 #header__split1{
@@ -52,7 +52,7 @@ a {
   top: 0;
   left: 100%;
   border-top: 100vh solid #1f1e1e;
-  border-right: 31vw solid transparent;
+  border-right: 20vw solid transparent;
 }
 
 #header__title2 {
@@ -65,17 +65,15 @@ a {
 
 #header__title2:hover:after {
   content: attr(data-hover);
-  font-size: 7vw;
+  font-size: 6.5vw;
   font-weight: 400;
 }
 
 .indicator {
   position: relative;
-  margin-left:44vw;
-  top: -8.76vh;
-  padding: 1vw;
-  height: 30px;
-  width: 30px;
+  margin-left:105%;
+  top: 2.5vw;
+  padding: .9vw;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);

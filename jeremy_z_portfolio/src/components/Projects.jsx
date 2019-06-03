@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
   window.addEventListener('scroll', stickyNav);
   window.onscroll = function () { stickyNav() }
 
-  const header = document.getElementById('projects_jump1')
+  const header = document.getElementById('projects_jump')
   const sticky = header.offsetTop;
 
   function stickyNav() {
@@ -21,8 +21,9 @@ class Projects extends Component {
     return (
       <div
         className='projects__body'
-        id='projects_jump1'>
+        id='projects_jump'>
         <title>Jeremy Zimmerman - A Profile</title>
+        <hr />
         <h1 className='main-header'>I Make Web Apps</h1>
         <hr />
         <div className='projects'>
@@ -36,7 +37,7 @@ class Projects extends Component {
               webPlayerLite - HTML, CSS, React.js, SoundCloud API <br /><br />An audio-media aggregator, which accesses the SoundCloud API to search for audio files by any keyword in order to populate audio players for users to be able to listen to their desired music selection.  <br />
             </p>
           </div>
-          <div id='col' className='project1'>
+          <div id='col' className='project2'>
             <a href='http://uxwdi-sushizo.surge.sh/'><img src='https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/master/Screen%20Shot%202019-05-20%20at%202.04.37%20AM.png?raw=true' alt='Sushi Zo' />
             </a>
             <p className='appText'>

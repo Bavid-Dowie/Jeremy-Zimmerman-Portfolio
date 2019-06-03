@@ -3,10 +3,10 @@ import Header from './components/Header'
 import Projects from './components/Projects'
 import AboutMe from './components/AboutMe'
 import Footer from './components/Footer'
-import './App.css';
 import Background1 from './components/Background1';
-import Background2 from './components/Background2';
+import Skills from './components/Skills';
 import ContactMe from './components/ContactMe';
+import './App.css';
 
 function App() {
   return (
@@ -15,9 +15,9 @@ function App() {
       <Background1 />
       <AboutMe />
       <Projects />
-      <Background2 />
+      <Skills />
       <ContactMe />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

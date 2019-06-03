@@ -1,5 +1,5 @@
-.parallax2-background {
-  height: 75vh;
+.skills-background {
+  height: 85vh;
   display: flex;
   justify-content: center;
   position: relative;
@@ -16,10 +16,10 @@
   height: 100%;
 }
 .bio-photo  {
-  margin: -90% -172%;
-  height: 45%;
+  height: 50%;
   width: auto;
   background: #005B60;
+  margin: 12% auto;
   opacity: 0.85;
   border: 4px double #000000;
   border-radius: 50%;
@@ -29,25 +29,18 @@
   -o-border-radius: 50%;
 }
 .bio-div {
-  margin: 12% 1% 10% 0;
+  margin: 12% 30% 6% -60%;
   height: 100%;
   width: auto;
 }
-#skillsa {
-  height: 20%;
+#skills_png {
+  height: 18%;
   text-align: center;
   width: auto;
-  margin: 4% 0 0 0;
+  margin: 4% 0.5% 0 0.5%;
   opacity: 0.8;
 }
-#skillsb {
-  height: 35%;
-  width: auto;
-  width: auto;
-  margin: 10% 1%;
-  opacity: 0.8;
-}
-@keyframes parallax2-background {
+@keyframes skills-background {
   0% {
     transform: translateY(1em);
     -webkit-transform: translateY(1em);

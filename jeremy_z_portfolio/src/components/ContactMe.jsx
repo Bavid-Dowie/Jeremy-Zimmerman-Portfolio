@@ -4,19 +4,14 @@ import './ContactMe.css'
 export default class ContactMe extends Component {
   render() {
     return (
-      <div className="projects">
-        <form id="contact" action="" method="post">
+      <div className='contact-me'>
+        <form id='contact' class='container' action='https://formspree.io/jtzimmerm@gmail.com' method='POST'>
           <h3>Contact Me</h3>
           <br />
-          <fieldset>
-            <input placeholder="Your Email Address" type="email" tabIndex="2" required />
-          </fieldset>
-          <fieldset>
-            <textarea placeholder="Type your Message Here...." tabIndex="5" required></textarea>
-          </fieldset>
-          <fieldset>
-            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-          </fieldset>
+          <input type='text' name='name' placeholder='Your Name'/>
+          <input type='email' name='_replyto' placeholder='Your Email'/>
+          <textarea name="comments" placeholder="And your message right here!"></textarea>
+          <input type='submit' value='Submit'/>
         </form>
       </div>
     )
