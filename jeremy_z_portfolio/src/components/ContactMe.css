@@ -11,19 +11,6 @@
 	text-rendering:optimizeLegibility;
 }
 
-body {
-	color:#005B60;
-	text-align: center;
-	background:#1f1e1e;
-}
-
-/* .container {
-	height: 40vh;
-	max-width:700px;
-	width:100%;
-	position:relative;
-} */
-
 #contact {
 	background:#1f1e1e;
 	height: 95vh;

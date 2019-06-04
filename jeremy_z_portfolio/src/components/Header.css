@@ -4,9 +4,15 @@ a {
   display: block;
 }
 
+body {
+  background:#1f1e1e;
+	color:#005B60;
+}
+
 #header__title1 {
   font-family: 'Special Elite', cursive;
   font-size: 6.5vw;
+  text-align: center;
   color: #005B60;
   padding: 0% 0% 0% 0%;
   margin: 8% 0% 8% 34.5%;
@@ -20,6 +26,7 @@ a {
 }
 
 #header__title2 {
+  text-align: center;
   font-family: 'Special Elite', cursive;
   font-size: 6.5vw;
   font-weight: 400;

@@ -8,3 +8,11 @@
   background: #1f1e1e;
   height: 100vh;
 }
+
+.about-me-blurb {
+  font-size: 1.75vw;
+  font-style: italic;
+  text-align: left;
+  font-weight: 300;
+  padding: 34.5vh 18vw 0 18vw;
+}
