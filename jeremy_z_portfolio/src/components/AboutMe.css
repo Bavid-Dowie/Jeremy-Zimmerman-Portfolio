@@ -16,3 +16,23 @@
   font-weight: 300;
   padding: 34.5vh 18vw 0 18vw;
 }
+
+nav ul {
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  color: #005B60;
+  font-size: 2vw;
+}
+
+nav li > a, nav li.navAside {
+  width: 4vw;
+  height: 8vh;
+  margin: 7vh 0 0 19vw;
+  line-height: 6vh;
+  text-align: left;
+  border-left: 3px solid #005B60;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  transition: all .3s ease-in-out;
+}

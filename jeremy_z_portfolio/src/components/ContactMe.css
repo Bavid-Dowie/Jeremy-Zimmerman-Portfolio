@@ -11,10 +11,14 @@
 	text-rendering:optimizeLegibility;
 }
 
+body {
+	background: #333232;
+}
+
 #contact {
-	background:#1f1e1e;
-	height: 95vh;
-  padding-top:10%;
+	background:#333232;
+	height: 100vh;
+  padding-top:15%;
   margin: 0% 24% 0% 24%;
 	width: 50vw;
   border-radius: 10px;
@@ -24,7 +28,7 @@
   -o-border-radius: 10px;
 }
 
-#contact h3 {
+#contact h1 {
 	font-size: 3vw;
 	font-weight: 400;
 }
@@ -36,15 +40,15 @@
 #contact textarea {
 	width:100%;
 	border:none;
-	background:#333232;
-	font-size: 2vw;
+	background:#1f1e1e;
+	font-size: 1vw;
   color: #005B60;
-	margin:1% 0 5%;
+	margin:1% 0 3%;
 	padding:10px;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
-	border:1px solid #333232;
+	border:1px solid #1f1e1e;
 }
 
 #contact input[type="text"]:hover,
@@ -52,7 +56,7 @@
 #contact input[type="tel"]:hover,
 #contact input[type="url"]:hover,
 #contact textarea:hover {
-	border:1px solid #1f1e1e;
+	border:1px solid #333232;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
@@ -62,7 +66,7 @@
 
 #contact button[type="submit"]:hover {
 	cursor: pointer;
-	background:#1f1e1e;
+	background:#333232;
 	-webkit-transition:background-color 0.3s ease-in-out;
 	-moz-transition:background-color 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
@@ -74,5 +78,5 @@
 #contact textarea:focus {
 	box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5);
 	outline:0;
-	border:1px solid #333232;
+	border:1px solid #1f1e1e;
 }

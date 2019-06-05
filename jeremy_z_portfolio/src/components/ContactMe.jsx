@@ -6,7 +6,7 @@ export default class ContactMe extends Component {
     return (
       <div className='contact-me'>
         <form id='contact' class='container' action='https://formspree.io/jtzimmerm@gmail.com' method='POST'>
-          <h3>Contact Me</h3>
+          <h1>Contact Me</h1>
           <br />
           <input type='text' name='name' placeholder='Your Name'/>
           <input type='email' name='_replyto' placeholder='Your Email'/>
