@@ -1,15 +1,11 @@
 .App {
   height: 100vh;
-  width: 100vw;
+  width: 122vw;
   margin: 0;
   padding: 0;
 }
 
 html {
   scroll-behavior: smooth;
-}
-
-h1 {
-  margin: transparent;
-  margin-left: -1%;
+  width: 122vw;
 }

@@ -10,13 +10,14 @@
 }
 
 body {
-	background: #1f1e1e;
+	background: #0B0C10;
+	width: 100vw;
 }
 
 .contact-me	{
-	background: #1f1e1e;
-	height: 85vh;
-  padding-top: 10vh;
+	background: #0B0C10;
+	height: 100vh;
+  padding-top: 18vh;
   margin: 0vh 24vw;
 }
 
@@ -30,7 +31,7 @@ body {
 }
 
 #contact h1 {
-	color: #005B60;
+	color: #45A29E;
 	font-size: 4vw;
 	font-weight: 500;
 	margin: 2vh -14vw 1vh;
@@ -43,15 +44,15 @@ body {
 #contact textarea {
 	width:80vw;
 	border:none;
-	background:#333232;
+	background:#1F2833;
 	font-size: 2vw;
-	color: #808080;
+	color: #C5C6C7;
 	margin: 1vh -14vw 1vh;
 	padding: 1vw;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
-	border:1px solid #1f1e1e;
+	border:1px solid #0B0C10;
 	-ms-transition:border-color 0.3s ease-in-out;
 	-o-transition:border-color 0.3s ease-in-out;
 }
@@ -61,7 +62,7 @@ body {
 #contact input[type="tel"]:hover,
 #contact input[type="url"]:hover,
 #contact textarea:hover {
-	border:1px solid #005B60;
+	border:1px solid #45A29E;
 	font-size: 2vw;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
@@ -72,7 +73,7 @@ body {
 
 /* #contact button[type="submit"]:hover {
 	cursor: pointer;
-	background:#333232;
+	background:#1F2833;
 	-webkit-transition:background-color 0.3s ease-in-out;
 	-moz-transition:background-color 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
@@ -85,14 +86,14 @@ body {
 	box-shadow:inset 0 1px 3px #00000080;
 	font-size: 2vw;
 	outline:0;
-	border:1px solid #333232;
+	border:1px solid #1F2833;
 }
 
 @media (max-width: 880px) {
 #contact {
-	background: #1f1e1e;
-	height: 56vh;
-  padding-top:10vh;
+	background: #0B0C10;
+	height: 85vh;
+  padding-top:15vh;
   margin: -5vh 24vw 10vh 0;
 	width: 50vw;
   border-radius: 10px;
@@ -103,7 +104,7 @@ body {
 }
 
 #contact h1 {
-	color: #005B60;
+	color: #45A29E;
 	font-size: 6vw;
 	font-weight: 400;
 }
@@ -115,14 +116,14 @@ body {
 #contact textarea {
 	width:80vw;
 	border:none;
-	background:#333232;
+	background:#1F2833;
 	font-size: 4vw;
-  color: #005B60;
+  color: #45A29E;
 	padding:10px;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
-	border:1px solid #1f1e1e;
+	border:1px solid #0B0C10;
 }
 
 #contact input[type="text"],
@@ -132,14 +133,14 @@ body {
 #contact textarea {
 	width:80vw;
 	border:none;
-	background:#333232;
+	background:#1F2833;
 	font-size: 3vw;
-	color: #808080;
+	color: #C5C6C7;
 	padding:4.5%;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
-	border:1px solid #1f1e1e;
+	border:1px solid #0B0C10;
 	-ms-transition:border-color 0.3s ease-in-out;
 	-o-transition:border-color 0.3s ease-in-out;
 }
@@ -149,7 +150,7 @@ body {
 #contact input[type="tel"]:hover,
 #contact input[type="url"]:hover,
 #contact textarea:hover {
-	border:1px solid #005B60;
+	border:1px solid #45A29E;
 	font-size: 3vw;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
@@ -166,7 +167,7 @@ body {
 }
 
 #contact h1 {
-	color: #005B60;
+	color: #45A29E;
 	font-size: 6vw;
 	font-weight: 400;
 	margin: 0vh -12vw;
@@ -179,15 +180,15 @@ body {
 #contact textarea {
 	width:80vw;
 	border:none;
-	background:#333232;
+	background:#1F2833;
 	font-size: 4vw;
-  color: #808080;
+  color: #C5C6C7;
 	margin:1vh -12vw 1vh;
 	padding:10px;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
-	border:1px solid #1f1e1e;
+	border:1px solid #0B0C10;
 }
 
 #contact input[type="text"],
@@ -197,14 +198,14 @@ body {
 #contact textarea {
 	width:80vw;
 	border:none;
-	background:#333232;
+	background:#1F2833;
 	font-size: 4vw;
-	color: #808080;
+	color: #C5C6C7;
 	padding:4.5%;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
-	border:1px solid #1f1e1e;
+	border:1px solid #0B0C10;
 	-ms-transition:border-color 0.3s ease-in-out;
 	-o-transition:border-color 0.3s ease-in-out;
 }
@@ -214,7 +215,7 @@ body {
 #contact input[type="tel"]:hover,
 #contact input[type="url"]:hover,
 #contact textarea:hover {
-	border:1px solid #005B60;
+	border:1px solid #45A29E;
 	font-size: 4vw;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
