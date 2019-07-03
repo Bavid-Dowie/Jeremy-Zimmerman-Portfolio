@@ -1,11 +1,10 @@
 .projects__body {
-  width: 100%;
+  width: 100vw;
   font-weight: bolder;
   font-family: 'Special Elite', cursive;
   color: #005B60;
   background: #1f1e1e;
   margin-top: transparent;
-  padding: 0.5vw 0;
   font-size: 2vw;
   text-align: center;
 }
@@ -16,14 +15,17 @@
 
 .appText {
   text-align: left;
-  font-size: 1.1vw;
+  font-size: 2vw;
+  line-height: 5vh;
+  padding: 7vh 1vw 0vh 1.5vw;
   font-weight: bolder;
 }
 
 .appText4 {
   text-align: left;
-  font-size: 1.1vw;
-  padding: 2.5vh 1vw 0vh 1.5vw;
+  font-size: 2vw;
+  line-height: 5vh;
+  padding: 7vh 1vw 0vh 1.5vw;
   font-weight: bolder;
 }
 
@@ -43,9 +45,9 @@
 
 .project1,.project2,.project3 {
   background: #1f1e1e;
-  padding: 2% 2% 2.5%;
-  width: 40vw;
-  margin: 0vh 5vw 8vh 5vw;
+  padding: 2vh 2vw 2.5vh;
+  width: 68vw;
+  margin: 0vh 2vw 6vh 0vw;
   color: #005B60;
   font-size: 5vw;
   text-align: left;
@@ -58,8 +60,7 @@
 
 .project4 {
   background: #1f1e1e;
-  padding: 2% .75% 2.5%;
-  width: 40vw;
+  width: 68vw;
   margin: 0vh 5vw 0vh 5vw;
   color: #005B60;
   border-radius: 15px;
@@ -70,7 +71,7 @@
 }
 
 img {
-  width: 37vw;
+  width: 67vw;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -80,78 +81,53 @@ img {
 
 @media (max-width: 880px) {
 .projects__body {
-  width: 100%;
+  width: 100vw;
   font-weight: bolder;
   font-family: 'Special Elite', cursive;
   color: #005B60;
   background: #1f1e1e;
-  margin-top: transparent;
-  padding: 0.5vw 0;
-  font-size: 2vw;
+  line-height: 2vh;
+  padding: 1vh 1vw;
+  font-size: 3vw;
   text-align: center;
 }
 
 .main-header {
-  margin: 6vw;
+  margin: 9vh 8vw 8vh;
 }
 
 .appText {
   text-align: left;
-  font-size: 1.1vw;
-  font-weight: bolder;
+  font-size: 3vw;
+  width: 86vw;
+  margin: 6vh 0 -3vh 0vw;
+  line-height: 4.5vh;
 }
 
 .appText4 {
   text-align: left;
-  font-size: 1.1vw;
-  padding: 2.5vh 1vw 0vh 1.5vw;
-  font-weight: bolder;
-}
-
-.projects {
-  padding: 4vw;
-  margin: 4vw;
-  list-style: none;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-flow: wrap;
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+  font-size: 3vw;
+  width: 88vw;
+  margin: 5vh 0 0 -1vw;
+  line-height: 4.5vh;
 }
 
 .project1,.project2,.project3 {
   background: #1f1e1e;
-  padding: 2% 2% 2.5%;
-  width: 40vw;
-  margin: 0vh 5vw 8vh 5vw;
+  width: 70vw;
+  margin: 1vh 5vw 6vh -13vw;
   color: #005B60;
-  font-size: 5vw;
-  text-align: left;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
 }
 
 .project4 {
   background: #1f1e1e;
-  padding: 2% .75% 2.5%;
-  width: 40vw;
-  margin: 0vh 5vw 0vh 5vw;
+  width: 70vw;
+  margin: 0vh 5vw 0vh -10vw;
   color: #005B60;
-  border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
 }
 
 img {
-  width: 37vw;
+  width: 85vw;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -162,7 +138,7 @@ img {
 
 @media (max-width: 414px) {
 .projects__body {
-  width: 100%;
+  width: 100vw;
   font-weight: bolder;
   font-family: 'Special Elite', cursive;
   color: #005B60;
@@ -170,25 +146,25 @@ img {
 
 .main-header {
   font-size: 8vw;
-  margin-top: 8vw;
+  margin-top: 16vw;
 }
 
 .appText {
   text-align: left;
   font-size: 4.5vw;
-  padding: 4.5vh 0 0 0;
+  padding: 0vh 0 3vh 0;
   font-weight: bolder;
 }
 
 .appText4 {
   text-align: left;
   font-size: 4.5vw;
-  padding: 4.5vh 0 5vh 0;
+  padding: 0vh 0 2vh 0;
   font-weight: bolder;
 }
 
 .projects {
-  padding: 10vw;
+  padding: 5vh 10vw;
   margin: 2vw;
   list-style: none;
   display: -webkit-box;
@@ -203,29 +179,16 @@ img {
 
 .project1,.project2,.project3 {
   background: #1f1e1e;
-  padding: 0 0;
+  padding: 0 12vw;
   width: 85vw;
   color: #005B60;
-  font-size: 10vw;
   text-align: left;
-  border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
 }
 
 .project4 {
   background: #1f1e1e;
-  padding: 0 .75% 2.5%;
   width: 85vw;
-  margin: 0 5vw;
-  color: #005B60;
-  border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
+  margin: 0 10vw 0 14vw;
 }
 
 img {

@@ -10,7 +10,7 @@ export default class ContactMe extends Component {
           <br />
           <input type='text' name='name' placeholder='Your Name'/>
           <input type='email' name='_replyto' placeholder='Your Email'/>
-          <textarea name="comments" placeholder="And your message right here!"></textarea>
+          <textarea name="comments" placeholder="Type your message right here, and send it into the void!"></textarea>
           <input type='submit' value='Submit'/>
         </form>
       </div>

@@ -307,7 +307,8 @@ a {
 
 @media (max-width : 414px) {
 #header__body {
-    height: 40%;
+    height: 40vh;
+    width: 50vw;
     padding-bottom: 0;
     margin-bottom: 0;
   }
@@ -350,9 +351,6 @@ a {
 
   #header__split1:after {
     content: '';
-    position: absolute;
-    top: 0;
-    left: 100%;
     border-top: 40vh solid #1f1e1e;
     border-right: 20vw solid transparent;
   }

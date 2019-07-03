@@ -29,7 +29,10 @@
 }
 @media (max-width: 414px) {
 .header-background {
-  height: 45vh;
+  height: 40vh;
+  width: 106vw;
+  background-size: 90%;
+  background-attachment: fixed;
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
