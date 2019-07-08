@@ -30,7 +30,7 @@
 @media (max-width: 414px) {
 .header-background {
   height: 37.5vh;
-  width: 122vw;
+  width: 100vw;
   background-size: 100%;
   background-attachment: fixed;
   transition: 0.5s all;
