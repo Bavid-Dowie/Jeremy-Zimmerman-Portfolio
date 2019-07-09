@@ -1,5 +1,5 @@
 .skills-background {
-  height: 100vh;
+  height: 200vh;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -10,7 +10,7 @@
 }
 
 .layer {
-  background-color: #0B0C1066;
+  background-color: #bdbec1cc;
   position: absolute;
   top: 0;
   left: 0;
@@ -19,10 +19,10 @@
 }
 
 .bio-photo  {
-  height: 50vh;
+  height: 40vh;
   width: auto;
   background: #45A29E;
-  margin: 8% 50%;
+  margin: -8% 48% 5% 52%;
   opacity: 0.85;
   border: 4px double #0B0C10;
   border-radius: 50%;
@@ -33,16 +33,15 @@
 }
 
 .bio-div {
-  margin: 12% 30% 6% -60%;
+  margin: 12% 30% 6% 0%;
   height: 100%;
   width: auto;
 }
 
 #skills_png {
-  height: 10vh;
-  text-align: center;
+  height: 13vh;
   width: auto;
-  margin: 4% 0.5% 0 0.5%;
+  margin: 0% 50% 0 67%;
   opacity: 0.8;
 }
 
@@ -75,10 +74,10 @@
 }
 
 .bio-photo  {
-  height: 50vh;
+  height: 35vh;
   width: auto;
   background: #45A29E;
-  margin: 17% -20%;
+  margin: 0 0 0 5%;
   opacity: 0.85;
   border: 4px double #0B0C10;
   border-radius: 50%;
@@ -88,17 +87,11 @@
   -o-border-radius: 50%;
 }
 
-.bio-div {
-  margin: 12% 30% 6% -60%;
-  height: 100%;
-  width: auto;
-}
-
 #skills_png {
-  height: 10vh;
+  height: 2%;
   text-align: center;
   width: auto;
-  margin: 4% 0.5% 0 0.5%;
+  margin: 4vh 0.5vw 0 1.5vw;
   opacity: 0.8;
 }
 
@@ -122,23 +115,30 @@
 
 @media (max-width: 414px) {
 .skills-background {
-  height: 37.5vh;
+  height: 290vh;
   width: 100vw;
   display: flex;
   background-image: url('https://raw.githubusercontent.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/master/brooklyngraffiti.jpg');
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-repeat: no-repeat;
+  opacity: .9;
 }
 
 .layer {
-  background-color: #0B0C1066;
+  background-color: #bdbec1cc;
   width: 100vw;
 }
 
+.bio-div {
+  margin: 12% 10% 12% 6%;
+  height: 100%;
+  width: auto;
+}
+
 .bio-photo  {
-  height: 30vh;
+  height: 38vh;
   background: #45A29E;
-  margin: 18vh 10vw 10vh -42vw;
+  margin: 3vh 0 3vh 0;
   border: 4px double #0B0C10;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -147,14 +147,12 @@
   -o-border-radius: 50%;
 }
 
-.bio-div {
-  margin: 0vh 10vw 6vh -47vw;
-}
-
 #skills_png {
-  height: 5vh;
+  height: 18vh;
+  display: table-column;
+  column-count: auto;
   justify-content: center;
-  margin: 5vh 0 0 2vw;
+  margin: 10% 50% 0 33%;
   opacity: 0.9;
 }
 }

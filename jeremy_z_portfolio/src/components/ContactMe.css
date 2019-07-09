@@ -11,7 +11,8 @@
 
 body {
 	background: #0B0C10;
-	width: 100vw;
+	width: 100%;
+	margin: 0 auto;
 }
 
 .contact-me	{
@@ -71,7 +72,7 @@ body {
 	-o-transition:border-color 0.3s ease-in-out;
 }
 
-/* #contact button[type="submit"]:hover {
+#contact button[type="submit"]:hover {
 	cursor: pointer;
 	background:#1F2833;
 	-webkit-transition:background-color 0.3s ease-in-out;
@@ -79,7 +80,7 @@ body {
 	transition:background-color 0.3s ease-in-out;
 	-ms-transition:background-color 0.3s ease-in-out;
 	-o-transition:background-color 0.3s ease-in-out;
-} */
+}
 
 #contact input:focus,
 #contact textarea:focus {
@@ -162,15 +163,23 @@ body {
 
 @media (max-width: 414px) {
 #contact {
-  padding-top: -1vh;
+  padding-top: 40%;
+  padding-bottom: 0%;
   margin: 0;
 }
 
 #contact h1 {
 	color: #45A29E;
-	font-size: 6vw;
-	font-weight: 400;
-	margin: 0vh -12vw;
+	font-size: 10vw;
+	font-weight: 500;
+	margin: 0vh -14vw;
+}
+
+.contact-me	{
+	background: #0B0C10;
+	height: 10vh;
+  padding-top: 0vh;
+  margin: 0vh 22vw;
 }
 
 #contact input[type="text"],
@@ -178,17 +187,19 @@ body {
 #contact input[type="tel"],
 #contact input[type="url"],
 #contact textarea {
-	width:80vw;
+	width:84vw;
 	border:none;
 	background:#1F2833;
 	font-size: 4vw;
-  color: #C5C6C7;
-	margin:1vh -12vw 1vh;
+	color: #C5C6C7;
+	margin:1vh -14vw 1vh;
 	padding:10px;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
 	border:1px solid #0B0C10;
+	-ms-transition:border-color 0.3s ease-in-out;
+	-o-transition:border-color 0.3s ease-in-out;
 }
 
 #contact input[type="text"],
@@ -196,12 +207,12 @@ body {
 #contact input[type="tel"],
 #contact input[type="url"],
 #contact textarea {
-	width:80vw;
+	width:84vw;
 	border:none;
 	background:#1F2833;
-	font-size: 4vw;
+	font-size: 5vw;
 	color: #C5C6C7;
-	padding:4.5%;
+	padding:5%;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
@@ -216,11 +227,21 @@ body {
 #contact input[type="url"]:hover,
 #contact textarea:hover {
 	border:1px solid #45A29E;
-	font-size: 4vw;
+	font-size: 5vw;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
 	-ms-transition:border-color 0.3s ease-in-out;
 	-o-transition:border-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:hover {
+	cursor: pointer;
+	background:#1F2833;
+	-webkit-transition:background-color 0.3s ease-in-out;
+	-moz-transition:background-color 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+	-ms-transition:background-color 0.3s ease-in-out;
+	-o-transition:background-color 0.3s ease-in-out;
 }
 }
