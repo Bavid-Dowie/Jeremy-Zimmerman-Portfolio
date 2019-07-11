@@ -88,18 +88,18 @@ nav li > a, nav li.navAside {
 @media (max-width: 414px) {
 .about-me {
   background: #0B0C10;
-  height: 100vh;
+  height: 105vh;
 }
 
 .about-me-blurb {
   font-size: 4.5vw;
   line-height: 6vh;
-  width: 110vw;
+  width: 100vw;
   font-style: italic;
   text-align: left;
   font-weight: 200;
   color: #C5C6C7;
-  padding: 7vh 0vw 0 12vw;
+  padding: 7vh 9vw 0 7vw;
 }
 
 nav ul {
@@ -107,13 +107,14 @@ nav ul {
   list-style: none;
   font-weight: 500;
   color: #45A29E;
-  font-size: 8.5vw;
+  font-size: 7.5vw;
+  margin-left: -7vw;
 }
 
 nav li > a, nav li.navAside {
   margin: 8vh 3vw 0 0;
   color: #45A29E;
-  line-height: 6vh;
+  line-height: 5.5vh;
   text-align: left;
   border: .1em solid #45A29E;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
