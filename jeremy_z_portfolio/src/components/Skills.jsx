@@ -24,7 +24,7 @@ export default class Skills extends Component {
               src='https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/master/Html-logo-bw.png?raw=true'
               alt='spritehtml' />
             <img id='skills_png'
-              src='https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/master/kisspng-node-js-javascript-web-application-express-js-comp-5ae0f84e5e7537.0464945815246930703869.png?raw=true' alt='spritenodejs' />
+              src='https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/master/jeremy_z_portfolio/nodejs-logo.png?raw=true' alt='spritenodejs' />
             <img id='skills_png'
               src='https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/master/CSS-logo-bw.png?raw=true'
               alt='spritecss' />
@@ -38,7 +38,7 @@ export default class Skills extends Component {
               src='https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/master/githublogo.png?raw=true'
               alt='spritegithub' />
             <img id='skills_png'
-              src='https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/master/kisspng-javascript-node-js-computer-icons-logo-application-prog-nodejs-svg-png-icon-free-download-437-44-5ba3cfbd27d1b0.8756216715374622051631.png?raw=true'
+              src='https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/master/jeremy_z_portfolio/javascript-logo.jpg?raw=true'
               alt='spritejs' />
             <img id='skills_png'
               src='https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/master/ruby-on-railslogo.png?raw=true' alt='spriterails' />
