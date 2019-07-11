@@ -82,11 +82,14 @@ img {
 @media (max-width: 880px) {
 .projects__body {
   width: 100vw;
+  font-weight: bolder;
   font-family: 'Special Elite', cursive;
   color: #45A29E;
   background: #0B0C10;
   line-height: 2vh;
   padding: 1vh 1vw;
+  font-size: 3vw;
+  text-align: center;
 }
 
 .main-header {
@@ -135,7 +138,7 @@ img {
 
 @media (max-width: 414px) {
 .projects__body {
-  width: 100%;
+  width: 100vw;
   font-weight: bolder;
   font-family: 'Special Elite', cursive;
   color: #45A29E;
@@ -147,12 +150,12 @@ img {
 
 .appText {
   font-size: 4.5vw;
-  padding: 5vh 0 0 0;
+  padding: 0vh 0 3vh 0;
 }
 
 .appText4 {
   font-size: 4.5vw;
-  padding: 5vh 0 0 0;
+  padding: 2vh 0;
 }
 
 .projects {
