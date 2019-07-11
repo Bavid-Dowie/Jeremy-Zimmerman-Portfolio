@@ -38,7 +38,7 @@ export default class Skills extends Component {
               src='https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/master/githublogo.png?raw=true'
               alt='spritegithub' />
             <img id='skills_png'
-              src='https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/master/jeremy_z_portfolio/javascript-logo.jpg?raw=true'
+              src='https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/master/jeremy_z_portfolio/javascript-logo.png?raw=true'
               alt='spritejs' />
             <img id='skills_png'
               src='https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/master/ruby-on-railslogo.png?raw=true' alt='spriterails' />
