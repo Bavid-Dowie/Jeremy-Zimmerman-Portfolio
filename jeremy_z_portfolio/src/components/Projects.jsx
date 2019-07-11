@@ -24,7 +24,7 @@ class Projects extends Component {
         id='projects_jump'>
         <title>Jeremy Zimmerman - A Profile</title>
         <hr />
-        <h1 className='main-header'>Stuff I Made</h1>
+        <h1 className='main-header'>My Stuff</h1>
         <hr />
         <div className='projects'>
           <div
