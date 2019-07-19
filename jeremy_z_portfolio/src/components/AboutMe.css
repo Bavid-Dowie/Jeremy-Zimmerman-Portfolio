@@ -11,11 +11,10 @@
 
 .about-me-blurb {
   font-size: 1.75vw;
-  font-style: italic;
   text-align: left;
-  font-weight: 600;
+  font-weight: 400;
   color: #45A29E;
-  padding: 18vh 13vw 0 19vw;
+  padding: 18vh 14.5vw 0 18vw;
 }
 
 nav ul {
@@ -24,14 +23,16 @@ nav ul {
   display: inline-flex;
   list-style: none;
   color: #45A29E;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 nav li > a, nav li.navAside {
-  margin: 8vh 0vw 3vh 16vw;
+  margin: 7vh 0vw 0vh 11.25vw;
+  padding: 2%;
   color: #45A29E;
-  line-height: 6vh;
-  text-align: left;
+  line-height: 8vh;
+  width: 17vw;
+  text-align: center;
   border: .1em solid #45A29E;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
   box-sizing: border-box;
@@ -101,6 +102,7 @@ nav li > a, nav li.navAside {
   color: #C5C6C7;
   padding: 7vh 9vw 0 7vw;
 }
+
 
 nav ul {
   display: inline-flex;

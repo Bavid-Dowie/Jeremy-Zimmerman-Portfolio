@@ -1,7 +1,5 @@
 .projects__body {
   width: 100vw;
-  font-weight: bolder;
-  font-family: 'Special Elite', cursive;
   color: #45A29E;
   background: #0B0C10;
   margin-top: transparent;
@@ -10,23 +8,26 @@
 }
 
 .main-header {
+  font-family: 'Special Elite', cursive;
   margin: 6vw;
 }
 
 .appText {
   text-align: left;
   font-size: 2vw;
-  line-height: 5vh;
-  padding: 7vh 1vw 0vh 1.5vw;
-  font-weight: bolder;
+  font-style: italic;
+  line-height: 6.5vh;
+  padding: 7vh 1.5vw 0vh 1.5vw;
+  margin-left: 2vw;
 }
 
 .appText4 {
   text-align: left;
   font-size: 2vw;
-  line-height: 5vh;
-  padding: 7vh 1vw 0vh 1.5vw;
-  font-weight: bolder;
+  font-style: italic;
+  line-height: 6.5vh;
+  padding: 7vh 1.5vw 0vh 1.5vw;
+  margin-left: 2vw;
 }
 
 .projects {
@@ -61,7 +62,7 @@
 .project4 {
   background: #0B0C10;
   width: 68vw;
-  margin: 0vh 5vw 0vh 5vw;
+  margin: 0vh 5vw -5vh 5vw;
   color: #45A29E;
   border-radius: 15px;
   -webkit-border-radius: 15px;
