@@ -27,7 +27,7 @@ nav ul {
 }
 
 nav li > a, nav li.navAside {
-  margin: 7vh 0vw 0vh 11.25vw;
+  margin: 6vh 0vw 0vh 11.25vw;
   padding: 2%;
   color: #45A29E;
   line-height: 8vh;
@@ -41,6 +41,24 @@ nav li > a, nav li.navAside {
   -moz-transition: all .3s ease-in-out;
   -ms-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
+}
+
+#about-me {
+  box-shadow: 1px 3px 0 #45A29E;
+  color: #45A29E;
+  padding: .5em 1em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#about-me:hover {
+  background-color: #1F2833;
+}
+
+#about-me:active {
+  box-shadow: none;
+  top: 4px;
 }
 
 @media (max-width: 880px) {
@@ -67,13 +85,13 @@ nav ul {
   display: inline-flex;
   margin: 0;
   color: #45A29E;
-  font-size: 4vw;
+  font-size: 3vw;
 }
 
 nav li > a, nav li.navAside {
-  margin: 7vh 0vw 6vh 12vw;
+  margin: 8vh 0vw 5vh 10vw;
   color: #45A29E;
-  line-height: 6vh;
+  line-height: 5vh;
   text-align: left;
   border: .1em solid #45A29E;
   text-shadow: 0 0 4px #000000cc;
@@ -83,6 +101,24 @@ nav li > a, nav li.navAside {
   -moz-transition: all .3s ease-in-out;
   -ms-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
+}
+
+#about-me {
+  box-shadow: 0 2px 7px #45A29E;
+  color: #45A29E;
+  padding: .25em .75em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#about-me:hover {
+  background-color: #1F2833;
+}
+
+#about-me:active {
+  box-shadow: none;
+  top: 3px;
 }
 }
 
@@ -109,14 +145,14 @@ nav ul {
   list-style: none;
   font-weight: 500;
   color: #45A29E;
-  font-size: 7.5vw;
-  margin-left: -7vw;
+  font-size: 5vw;
+  margin-left: -4vw;
 }
 
 nav li > a, nav li.navAside {
-  margin: 8vh 3vw 0 0;
+  margin: 6vh 4vw -2vh 0;
   color: #45A29E;
-  line-height: 5.5vh;
+  line-height: 3vh;
   text-align: left;
   border: .1em solid #45A29E;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
@@ -126,5 +162,23 @@ nav li > a, nav li.navAside {
   -moz-transition: all .3s ease-in-out;
   -ms-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
+}
+
+#about-me {
+  box-shadow: 0px 2px 0 #45A29E;
+  color: #45A29E;
+  padding: .5em 4.5em 0.5em .5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#about-me:hover {
+  background-color: #1F2833;
+}
+
+#about-me:active {
+  box-shadow: none;
+  top: 4px;
 }
 }
