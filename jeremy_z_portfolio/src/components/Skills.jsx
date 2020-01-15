@@ -1,21 +1,16 @@
-import React, { Component } from 'react'
-import './Skills.css'
-
-// const parallax = document.getElementsByClassName('')
-// componentDidMount() {
-//   window.addEventListener('scroll', function () {
-//     let offset = window.pageYOffset
-// Skills.style.backgroundPositionY = offset * 0.7 + 'px'
-//   })
-// }
+import React, { Component } from "react"
+import "./Skills.css"
 
 export default class Skills extends Component {
-
-
   render() {
     return (
       <div className="skills-background" id="skills_jump">
         <div className="layer">
+          <img
+            className="bio-photo"
+            src="https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/master/my_profile_pic.jpeg?raw=true"
+            alt="jeremyz"
+          />
           <div className="bio-div">
             <img
               id="skills_png"
@@ -41,11 +36,6 @@ export default class Skills extends Component {
               id="skills_png"
               src="https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/master/ruby-logo.png?raw=true"
               alt="spriteruby"
-            />
-            <img
-              className="bio-photo"
-              src="https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/master/webdev_profileimg.jpg?raw=true"
-              alt="jeremyz"
             />
             <img
               id="skills_png"
@@ -75,7 +65,6 @@ export default class Skills extends Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
-
 }

@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import "./ContactMe.css";
+import React, { Component } from "react"
+import "./ContactMe.css"
 
 export default class ContactMe extends Component {
   render() {
@@ -22,6 +22,6 @@ export default class ContactMe extends Component {
           <input type="submit" value="Submit" />
         </form>
       </div>
-    );
+    )
   }
 }

@@ -1,20 +1,13 @@
 .about-me {
-  box-shadow: inset 2vw 0vw 8vw 2vw #e9ebf1,
-              inset 11vw 11vw 4vw -2vw #e9ebf1,
-              inset 0vw 0vw 2vw 11vw #e9ebf1;
-  -webkit-box-shadow: inset 2vw 0vw 2vw 2vw #e9ebf1,
-                      inset 11vw 11vw 1vw 1vw #e9ebf1,
-                      inset 0vw 1vw 1vw 11vw #e9ebf1;
-  background: #1F2833;
   height: 100vh;
 }
 
 .about-me-blurb {
-  font-size: 1.75vw;
+  font-size: 2vw;
   text-align: left;
-  font-weight: 400;
+  font-weight: 600;
   color: #45A29E;
-  padding: 18vh 14.5vw 0 18vw;
+  padding: 20vh 14.5vw 0 16vw;
 }
 
 nav ul {
@@ -27,7 +20,7 @@ nav ul {
 }
 
 nav li > a, nav li.navAside {
-  margin: 6vh 0vw 0vh 11.25vw;
+  margin: 10vh 0vw -4vh 11.25vw;
   padding: 2%;
   color: #45A29E;
   line-height: 8vh;
@@ -129,34 +122,37 @@ nav li > a, nav li.navAside {
 }
 
 .about-me-blurb {
-  font-size: 4.5vw;
-  line-height: 6vh;
-  width: 100vw;
-  font-style: italic;
-  text-align: left;
-  font-weight: 200;
   color: #78797a;
+  font-size: 4.5vw;
+  font-weight: 600;
+  justify-self: center;
+  line-height: 6vh;
   padding: 7vh 9vw 0 7vw;
+  width: 100vw;
 }
 
+.resume {
+
+}
+
+.github {
+
+}
 
 nav ul {
-  display: inline-flex;
-  list-style: none;
-  font-weight: 500;
   color: #45A29E;
-  font-size: 5vw;
-  margin-left: -4vw;
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0 auto;
 }
 
 nav li > a, nav li.navAside {
-  margin: 6vh 4vw -2vh 0;
+  border: .1rem solid #45A29E;
+  box-sizing: border-box;
   color: #45A29E;
   line-height: 3vh;
-  text-align: left;
-  border: .1em solid #45A29E;
+  margin: 6vh 8.5vw -2vh -4.5vw;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
-  box-sizing: border-box;
   transition: all .3s ease-in-out;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
@@ -167,10 +163,12 @@ nav li > a, nav li.navAside {
 #about-me {
   box-shadow: 0px 2px 0 #45A29E;
   color: #45A29E;
+  font-size: .9rem;
   padding: .5em 4.5em 0.5em .5em;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
+  width: 5rem;
 }
 
 #about-me:hover {

@@ -1,11 +1,12 @@
-import React from 'react';
+import React from 'react'
 import Header from './components/Header'
 import Projects from './components/Projects'
 import AboutMe from './components/AboutMe'
-import HeaderBackground from './components/HeaderBackground';
-import Skills from './components/Skills';
-import ContactMe from './components/ContactMe';
-import './App.css';
+import HeaderBackground from './components/HeaderBackground'
+import Skills from './components/Skills'
+import ContactMe from './components/ContactMe'
+import Footer from './components/Footer'
+import './App.css'
 
 function App() {
   return (
@@ -16,8 +17,10 @@ function App() {
       <Projects />
       <Skills />
       <ContactMe />
+      <hr />
+      <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

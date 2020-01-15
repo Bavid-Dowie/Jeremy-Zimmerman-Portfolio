@@ -42,7 +42,7 @@ export default class AboutMe extends Component {
           <br />
           <br />
           As a lifelong traveler, endlessly wandering across longitudes and
-          latitudes, I have a deep-seeded desire to help bring people
+          , I have a deep-seeded desire to help bring people
           together.
           <br />
           <br />
