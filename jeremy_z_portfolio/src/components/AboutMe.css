@@ -3,11 +3,16 @@
 }
 
 .about-me-blurb {
-  font-size: 2vw;
+  font-size: 2.6vw;
   text-align: left;
-  font-weight: 600;
+  font-weight: 500;
   color: #45A29E;
-  padding: 20vh 14.5vw 0 16vw;
+  padding: 14vh 14.5vw 0 16vw;
+}
+
+nav {
+  margin: 0 auto;
+
 }
 
 nav ul {
@@ -27,7 +32,6 @@ nav li > a, nav li.navAside {
   width: 17vw;
   text-align: center;
   border: .1em solid #45A29E;
-  text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
   box-sizing: border-box;
   transition: all .3s ease-in-out;
   -webkit-transition: all .3s ease-in-out;
@@ -56,25 +60,20 @@ nav li > a, nav li.navAside {
 
 @media (max-width: 880px) {
 .about-me {
+  height: 100vh;
   box-shadow: inset 2vh 0vw 8vh 2vw #e9ebf1;
   -webkit-box-shadow: inset 0 16vw 1vh 7vw #e9ebf1,
                       inset 0 -2vw 1vh 8vw #e9ebf1;
-  background: #1F2833;
-  height: 80vh;
 }
 
 .about-me-blurb {
-  font-size: 3vw;
-  line-height: 4vh;
-  font-style: italic;
-  text-align: center;
-  font-weight: 600;
+  font-size: 4.25vw;
+  line-height: 5vh;
+  font-weight: 500;
   padding: 6.5vh 10vw 0 12vw;
 }
 
 nav ul {
-  justify-content: center;
-  text-align: center;
   display: inline-flex;
   margin: 0;
   color: #45A29E;
@@ -85,9 +84,7 @@ nav li > a, nav li.navAside {
   margin: 8vh 0vw 5vh 10vw;
   color: #45A29E;
   line-height: 5vh;
-  text-align: left;
   border: .1em solid #45A29E;
-  text-shadow: 0 0 4px #000000cc;
   box-sizing: border-box;
   transition: all .3s ease-in-out;
   -webkit-transition: all .3s ease-in-out;
@@ -97,12 +94,9 @@ nav li > a, nav li.navAside {
 }
 
 #about-me {
-  box-shadow: 0 2px 7px #45A29E;
   color: #45A29E;
-  padding: .25em .75em;
+  padding: .5em .5em;
   position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
 }
 
 #about-me:hover {
@@ -118,16 +112,15 @@ nav li > a, nav li.navAside {
 @media (max-width: 414px) {
 .about-me {
   background: #e6e8ec;
-  height: 105vh;
+  height: 100vh;
 }
 
 .about-me-blurb {
   color: #78797a;
-  font-size: 4.5vw;
-  font-weight: 600;
-  justify-self: center;
-  line-height: 6vh;
-  padding: 7vh 9vw 0 7vw;
+  font-size: 5.75vw;
+  font-weight: 500;
+  line-height: 5vh;
+  padding: 0vh 9vw 0 7vw;
   width: 100vw;
 }
 
@@ -150,9 +143,8 @@ nav li > a, nav li.navAside {
   border: .1rem solid #45A29E;
   box-sizing: border-box;
   color: #45A29E;
-  line-height: 3vh;
-  margin: 6vh 8.5vw -2vh -4.5vw;
-  text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+  line-height: 4vh;
+  margin: 4vh 8.5vw 5vh -4.25vw;
   transition: all .3s ease-in-out;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
@@ -161,10 +153,8 @@ nav li > a, nav li.navAside {
 }
 
 #about-me {
-  box-shadow: 0px 2px 0 #45A29E;
   color: #45A29E;
   font-size: .9rem;
-  padding: .5em 4.5em 0.5em .5em;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;

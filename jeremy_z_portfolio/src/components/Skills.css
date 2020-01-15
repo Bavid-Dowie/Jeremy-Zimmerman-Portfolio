@@ -47,12 +47,14 @@
 
 #skills_png {
   height: 13vh;
-  left: -23.5rem;
+  left: -48em;
   opacity: 0.8;
-  top: 32rem;
+  top: 12rem;
   width: auto;
   text-align: center;
   margin: 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
   position: relative;
 }
 
@@ -88,11 +90,9 @@
 .bio-photo  {
   height: 35vh;
   width: auto;
-  background: #45A29E;
   margin: 7vh 10vw 3vh 24vw;
   justify-content: center;
   opacity: 0.85;
-  border: 4px double #0B0C10;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -110,11 +110,7 @@
 #skills_png {
   height: 10vh;
   text-align: center;
-  left: -21rem;
-  margin: 0 auto;
-  opacity: 0.8;
-  position: relative;
-  top: 24rem;
+  left: -45rem;
   width: auto;
 }
 
@@ -157,17 +153,16 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  /* margin: 12% 10% 12% 6%; */
   height: 100%;
   width: auto;
 }
 
 .bio-photo  {
-  align-items: center;
-  /* background: #45A29E; */
-  height: 35vh;
+  height: 33vh;
   margin: 0 auto;
-  border: 4px double #0B0C10;
+  margin-left: 5vw;
+  margin-top: 4vh;
+  opacity: 0.9;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -177,11 +172,10 @@
 
 #skills_png {
   height: 8vh;
-  display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  /* margin: 10% 50% 0 33%; */
+  flex-wrap: wrap;
+  left: -17rem;
   opacity: 0.9;
+  top: 1;
 }
 }
