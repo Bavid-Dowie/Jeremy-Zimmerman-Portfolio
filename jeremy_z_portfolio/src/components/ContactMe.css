@@ -9,20 +9,28 @@
 	text-rendering:optimizeLegibility;
 }
 
-body {
-	background: #e9ebf1;
-	width: 100vw;
+.contact-me	{
+	background: #eeeeff;
+	height: 78vh;
+	padding: 5vh 10vw;
+	position: relative;
+  text-align: left;
 }
 
-.contact-me	{
-	background: #e9ebf1;
-	height: 100vh;
-  padding-top: 18vh;
-  margin: 0vh 24vw;
+h6 {
+	font-size: 1.25vw;
+	font-weight: 300;
+	padding: 1.5vh 0 0 0;
+	margin-left: 2.75vw;
 }
 
 #contact {
-	width: 50vw;
+	background: #b4b4c2;
+	height: 33em;
+	margin-left: 11vw;
+	margin-top: 3vh;
+	position: absolute;
+  width: 58vw;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -34,36 +42,39 @@ body {
 	color: #45A29E;
 	font-size: 3vw;
 	font-weight: 700;
-	margin: 2vh 0vw 1vh;
+	margin-left: 2.75vw;
+	margin-top: 4vh;
 }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
+#contact input[type='text'],
+#contact input[type='email'],
+#contact input[type='tel'],
+#contact input[type='url'],
 #contact textarea {
-	width:50vw;
 	border:none;
-	background:#1F2833;
+	background:#d6dadf;
+  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+	color: #6c6d6d;
 	font-size: 1.5vw;
-	color: #C5C6C7;
-	margin: 1vh 0vw 1vh;
-	padding: 1.25vw;
+	margin: 1.25vh 2.75vw;
+	padding: .5vh .25vw;
+	width: 52vw;
+	position: relative;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
-	border:1px solid #e9ebf1;
+	border: 2px solid #d6dadf;
 	-ms-transition:border-color 0.3s ease-in-out;
 	-o-transition:border-color 0.3s ease-in-out;
 }
 
-#contact input[type="text"]:hover,
-#contact input[type="email"]:hover,
-#contact input[type="tel"]:hover,
-#contact input[type="url"]:hover,
+#contact input[type='text']:hover,
+#contact input[type='email']:hover,
+#contact input[type='tel']:hover,
+#contact input[type='url']:hover,
 #contact textarea:hover {
-	border:1px solid #45A29E;
-	font-size: 2vw;
+	border:2px solid #45A29E;
+	margin-left: 2.75vw;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
@@ -71,9 +82,23 @@ body {
 	-o-transition:border-color 0.3s ease-in-out;
 }
 
-#contact button[type="submit"]:hover {
+#submit-button {
+	box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+	border-radius: 4px;
+	font-size: .75vw;
+	margin-left: 2.75vw;
+	margin-top: .5vw;
+	width: 7vw;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+
+#submit-button:hover {
 	cursor: pointer;
-	background:#1F2833;
+	background:#c3c6ca;
+	font-size: .75vw;
 	-webkit-transition:background-color 0.3s ease-in-out;
 	-moz-transition:background-color 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
@@ -83,19 +108,23 @@ body {
 
 #contact input:focus,
 #contact textarea:focus {
-	box-shadow:inset 0 1px 3px #00000080;
-	font-size: 2vw;
+	border:1px solid #d6dadf;
+	color: #6c6d6d;
+	font-size: 1.5vw;
+	margin-left: 2.75vw;
 	outline:0;
-	border:1px solid #1F2833;
 }
 
 @media (max-width: 880px) {
 #contact {
-	background: #e9ebf1;
-	height: 85vh;
-  padding-top:15vh;
-  margin: -5vh 24vw 10vh 0;
-	width: 50vw;
+	background: #b4b4c2;
+	font-size: 3vw;
+	height: 60vh;
+	margin-left: -3vh;
+	margin-top: 4vh;
+	padding-left:2.5vh;
+	position: absolute;
+	width: 87vw;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -107,53 +136,85 @@ body {
 	color: #45A29E;
 	font-size: 6vw;
 	font-weight: 400;
-	margin-left: -10vw;
+	margin-left: .75vw;
 }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
+h6 {
+	font-size: 2.75vw;
+	font-weight: 300;
+	margin-left: .75vw;
+	padding: 1vh 0 0 0;
+}
+
+#submit-button {
+	box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+	border-radius: 4px;
+	font-size: 1.75vw;
+	margin-left: .75vw;
+	margin-top: .5vw;
+	width: 14vw;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+
+#submit-button:hover {
+	cursor: pointer;
+	background:#c3c6ca;
+	font-size: 1.75vw;
+	-webkit-transition:background-color 0.3s ease-in-out;
+	-moz-transition:background-color 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+	-ms-transition:background-color 0.3s ease-in-out;
+	-o-transition:background-color 0.3s ease-in-out;
+}
+
+#contact input[type='text'],
+#contact input[type='email'],
+#contact input[type='tel'],
+#contact input[type='url'],
 #contact textarea {
-	background:#1F2833;
+	background:#d6dadf;
 	border:none;
-  color: #45A29E;
-	font-size: 4vw;
-	margin-left: -10vw;
+	color: #45A29E;
+	font-size: 3vw;
+	margin-left: .75vw;
 	padding:10px;
 	width:80vw;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
-	border:1px solid #e9ebf1;
-}
-
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea {
-	background:#1F2833;
-	border:none;
-	color: #C5C6C7;
-	font-size: 3vw;
-	padding:4.5%;
-	width:80vw;
-	-webkit-transition:border-color 0.3s ease-in-out;
-	-moz-transition:border-color 0.3s ease-in-out;
-	transition:border-color 0.3s ease-in-out;
-	border:1px solid #e9ebf1;
+	border:1px solid #d6dadf;
 	-ms-transition:border-color 0.3s ease-in-out;
 	-o-transition:border-color 0.3s ease-in-out;
 }
 
-#contact input[type="text"]:hover,
-#contact input[type="email"]:hover,
-#contact input[type="tel"]:hover,
-#contact input[type="url"]:hover,
+#contact input[type='text'],
+#contact input[type='email'],
+#contact input[type='tel'],
+#contact input[type='url'],
+#contact textarea {
+	background:#d6dadf;
+	border:none;
+	color: #6c6d6d;
+	font-size: 2vw;
+	width:80vw;
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #d6dadf;
+	-ms-transition:border-color 0.3s ease-in-out;
+	-o-transition:border-color 0.3s ease-in-out;
+}
+
+#contact input[type='text']:hover,
+#contact input[type='email']:hover,
+#contact input[type='tel']:hover,
+#contact input[type='url']:hover,
 #contact textarea:hover {
 	border:1px solid #45A29E;
-	font-size: 3vw;
+	font-size: 2vw;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
@@ -163,8 +224,12 @@ body {
 }
 
 @media (max-width: 414px) {
+.contact-me {
+	padding-top: 9vh;
+}
+
 #contact {
-  padding-top: 10vh;
+  padding-top: 1vh;
   margin: 0 -4vw 0;
 }
 
@@ -174,48 +239,57 @@ body {
 	font-weight: 500;
 }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
+#submit-button {
+	font-size: 4vw;
+	width: 28vw;
+}
+
+h6 {
+	font-size: 4vw;
+}
+
+#contact input[type='text'],
+#contact input[type='email'],
+#contact input[type='tel'],
+#contact input[type='url'],
 #contact textarea {
 	width:80vw;
 	border:none;
-	background:#1F2833;
+	background:#d6dadf;
 	font-size: 4vw;
-  color: #C5C6C7;
+  color: #6c6d6d;
 	padding:5px;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
-	border:1px solid #e9ebf1;
+	border:1px solid #eeeeff;
 }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
+#contact input[type='text'],
+#contact input[type='email'],
+#contact input[type='tel'],
+#contact input[type='url'],
 #contact textarea {
-	width:80vw;
+	width:76vw;
 	border:none;
-	background:#1F2833;
+	background:#d6dadf;
 	font-size: 4vw;
-	color: #C5C6C7;
+	color: #6c6d6d;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
-	border:1px solid #e9ebf1;
+	border:1px solid #d6dadf;
 	-ms-transition:border-color 0.3s ease-in-out;
 	-o-transition:border-color 0.3s ease-in-out;
 }
 
-#contact input[type="text"]:hover,
-#contact input[type="email"]:hover,
-#contact input[type="tel"]:hover,
-#contact input[type="url"]:hover,
+#contact input[type='text']:hover,
+#contact input[type='email']:hover,
+#contact input[type='tel']:hover,
+#contact input[type='url']:hover,
 #contact textarea:hover {
 	border:1px solid #45A29E;
-	font-size: 5vw;
+	font-size: 4vw;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;

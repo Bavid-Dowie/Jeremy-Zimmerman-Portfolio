@@ -5,6 +5,11 @@
   padding: 0;
 }
 
+body {
+	background: #eeeeff;
+	width: 100vw;
+}
+
 html {
   scroll-behavior: smooth;
   max-width: 100%;
