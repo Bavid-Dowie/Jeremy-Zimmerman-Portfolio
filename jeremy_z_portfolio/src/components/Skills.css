@@ -2,19 +2,15 @@
   height: 100vh;
   width: 100vw;
   display: flex;
-  justify-content: left;
-  position: relative;
   background-image: url('https://raw.githubusercontent.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/master/brooklyngraffiti.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
 
 .layer {
-  background-color: #bdbec1cc;
+  background-color: #bdbec1d9;
   display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
+  justify-content: center;
   height: 100%;
   width: 100vw;
 }
@@ -22,11 +18,10 @@
 .bio-photo  {
   background: #45A29E;
   height: 40vh;
-  justify-content: center;
   margin: 0 auto;
-  margin-left: 35vw;
-  margin-top: 10vh;
+  margin-top: 8rem;
   opacity: 0.85;
+  position: absolute;
   width: auto;
   border: 4px double #0B0C10;
   border-radius: 50%;
@@ -36,26 +31,18 @@
   -o-border-radius: 50%;
 }
 
-.bio-div {
-  display: flex;
+.skill-container {
+  align-self: flex-end;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100%;
+  margin-bottom: 9rem;
 }
 
 #skills_png {
   height: 13vh;
-  left: -48em;
   opacity: 0.8;
-  top: 12rem;
   width: auto;
-  text-align: center;
   margin: 0 auto;
-  flex-direction: row;
   flex-wrap: wrap;
-  position: relative;
 }
 
 @keyframes skills-background {
@@ -76,21 +63,9 @@
 }
 
 @media (max-width: 880px) {
-.skills-background {
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  background-image: url('https://raw.githubusercontent.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/master/brooklyngraffiti.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
 
 .bio-photo  {
   height: 35vh;
-  width: auto;
-  margin: 7vh 10vw 3vh 24vw;
   justify-content: center;
   opacity: 0.85;
   border-radius: 50%;
@@ -100,17 +75,12 @@
   -o-border-radius: 50%;
 }
 
-.bio-div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+.skill-container {
+  width: 50%;
 }
 
 #skills_png {
   height: 10vh;
-  text-align: center;
-  left: -45rem;
   width: auto;
 }
 
@@ -133,35 +103,10 @@
 }
 
 @media (max-width: 414px) {
-.skills-background {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  background-image: url('https://raw.githubusercontent.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/master/brooklyngraffiti.jpg');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  opacity: .9;
-}
-
-.layer {
-  background-color: #bdbec1cc;
-  width: 100vw;
-}
-
-.bio-div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: auto;
-}
 
 .bio-photo  {
-  height: 33vh;
-  margin: 0 auto;
-  margin-left: 5vw;
-  margin-top: 4vh;
+  height: 35vh;
+  margin-top: 10vh;
   opacity: 0.9;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -170,12 +115,15 @@
   -o-border-radius: 50%;
 }
 
+.skill-container {
+  padding-bottom: 2rem;
+  position: absolute;
+  width: 100vw;
+}
+
 #skills_png {
-  height: 8vh;
-  flex-direction: row;
-  flex-wrap: wrap;
-  left: -17rem;
+  height: 4rem;
+  margin: .5rem;
   opacity: 0.9;
-  top: 1;
 }
 }

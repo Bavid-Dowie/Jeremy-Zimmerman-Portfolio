@@ -11,7 +11,7 @@ export default class Skills extends Component {
             src="https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/master/my_profile_pic.jpeg?raw=true"
             alt="jeremyz"
           />
-          <div className="bio-div">
+          <div className="skill-container">
             <img
               id="skills_png"
               src="https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/master/Html-logo-bw.png?raw=true"

@@ -1,0 +1,14 @@
+p {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+@media (max-width: 880px) {
+
+}
+
+@media (max-width: 414px) {
+  p {
+    font-size: .75rem;
+  }
+}

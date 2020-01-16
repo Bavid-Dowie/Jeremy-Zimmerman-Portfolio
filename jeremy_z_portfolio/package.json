@@ -4,6 +4,10 @@
     "private": true,
     "dependencies": {
         "@bit/bondz.react-epic-spinners.atom-spinner": "^0.3.0",
+        "@formcarry/react": "^1.0.2",
+        "axios": "^0.19.1",
+        "bootstrap": "^4.4.1",
+        "jquery": "^3.4.1",
         "react": "^16.8.6",
         "react-awesome-button": "^6.1.0",
         "react-dom": "^16.8.6",

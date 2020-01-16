@@ -32,9 +32,9 @@ body {
 
 #contact h1 {
 	color: #45A29E;
-	font-size: 4vw;
-	font-weight: 500;
-	margin: 2vh -14vw 1vh;
+	font-size: 3vw;
+	font-weight: 700;
+	margin: 2vh 0vw 1vh;
 }
 
 #contact input[type="text"],
@@ -42,13 +42,13 @@ body {
 #contact input[type="tel"],
 #contact input[type="url"],
 #contact textarea {
-	width:80vw;
+	width:50vw;
 	border:none;
 	background:#1F2833;
-	font-size: 2vw;
+	font-size: 1.5vw;
 	color: #C5C6C7;
-	margin: 1vh -14vw 1vh;
-	padding: 1vw;
+	margin: 1vh 0vw 1vh;
+	padding: 1.25vw;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
@@ -71,7 +71,7 @@ body {
 	-o-transition:border-color 0.3s ease-in-out;
 }
 
-/* #contact button[type="submit"]:hover {
+#contact button[type="submit"]:hover {
 	cursor: pointer;
 	background:#1F2833;
 	-webkit-transition:background-color 0.3s ease-in-out;
@@ -79,7 +79,7 @@ body {
 	transition:background-color 0.3s ease-in-out;
 	-ms-transition:background-color 0.3s ease-in-out;
 	-o-transition:background-color 0.3s ease-in-out;
-} */
+}
 
 #contact input:focus,
 #contact textarea:focus {
@@ -107,6 +107,7 @@ body {
 	color: #45A29E;
 	font-size: 6vw;
 	font-weight: 400;
+	margin-left: -10vw;
 }
 
 #contact input[type="text"],
@@ -114,12 +115,13 @@ body {
 #contact input[type="tel"],
 #contact input[type="url"],
 #contact textarea {
-	width:80vw;
-	border:none;
 	background:#1F2833;
-	font-size: 4vw;
+	border:none;
   color: #45A29E;
+	font-size: 4vw;
+	margin-left: -10vw;
 	padding:10px;
+	width:80vw;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
@@ -131,12 +133,12 @@ body {
 #contact input[type="tel"],
 #contact input[type="url"],
 #contact textarea {
-	width:80vw;
-	border:none;
 	background:#1F2833;
-	font-size: 3vw;
+	border:none;
 	color: #C5C6C7;
+	font-size: 3vw;
 	padding:4.5%;
+	width:80vw;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
@@ -162,15 +164,14 @@ body {
 
 @media (max-width: 414px) {
 #contact {
-  padding-top: -1vh;
-  margin: 0;
+  padding-top: 10vh;
+  margin: 0 -4vw 0;
 }
 
 #contact h1 {
 	color: #45A29E;
-	font-size: 6vw;
-	font-weight: 400;
-	margin: 0vh -12vw;
+	font-size: 9vw;
+	font-weight: 500;
 }
 
 #contact input[type="text"],
@@ -183,8 +184,7 @@ body {
 	background:#1F2833;
 	font-size: 4vw;
   color: #C5C6C7;
-	margin:1vh -12vw 1vh;
-	padding:10px;
+	padding:5px;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
@@ -201,7 +201,6 @@ body {
 	background:#1F2833;
 	font-size: 4vw;
 	color: #C5C6C7;
-	padding:4.5%;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
@@ -216,7 +215,7 @@ body {
 #contact input[type="url"]:hover,
 #contact textarea:hover {
 	border:1px solid #45A29E;
-	font-size: 4vw;
+	font-size: 5vw;
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
