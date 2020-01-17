@@ -1,7 +1,7 @@
 .projects__body {
   width: 100%;
   color: #206966;
-  background: #eeeeff;
+  background: #f6f6ff;
   margin-top: transparent;
   font-size: 2vw;
   text-align: center;
@@ -44,7 +44,7 @@
 }
 
 .project1,.project2,.project3 {
-  background: #eeeeff;
+  background: #f6f6ff;
   padding: 2vh 2vw 2.5vh;
   width: 68vw;
   margin: 0vh 2vw 6vh 0vw;
@@ -59,7 +59,7 @@
 }
 
 .project4 {
-  background: #eeeeff;
+  background: #f6f6ff;
   width: 68vw;
   margin: 0vh 5vw -5vh 5vw;
   color: #206966;
@@ -84,7 +84,7 @@ img {
   width: 100vw;
   font-weight: 600;
   color: #206966;
-  background: #eeeeff;
+  background: #f6f6ff;
   line-height: 2vh;
   padding: 1vh 1vw;
   font-size: 3vw;
@@ -112,14 +112,14 @@ img {
 }
 
 .project1,.project2,.project3 {
-  background: #eeeeff;
+  background: #f6f6ff;
   width: 70vw;
   margin: 1vh 5vw 6vh -13vw;
   color: #206966;
 }
 
 .project4 {
-  background: #eeeeff;
+  background: #f6f6ff;
   width: 70vw;
   margin: 0vh 5vw 0vh -10vw;
   color: #206966;
@@ -161,7 +161,7 @@ img {
 }
 
 .project1,.project2,.project3 {
-  background: #eeeeff;
+  background: #f6f6ff;
   padding: 0 9vw;
   width: 85vw;
   color: #206966;
@@ -169,7 +169,7 @@ img {
 }
 
 .project4 {
-  background: #eeeeff;
+  background: #f6f6ff;
   width: 85vw;
   margin: 0 10vw;
 }

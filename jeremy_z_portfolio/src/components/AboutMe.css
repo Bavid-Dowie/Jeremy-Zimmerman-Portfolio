@@ -3,36 +3,39 @@
 }
 
 .about-me-blurb {
+  background: #f6f6ff;
+  color: #45A29E;
   font-size: 2.6vw;
   text-align: left;
   font-weight: 500;
-  color: #45A29E;
   padding: 14vh 14.5vw 0 16vw;
 }
 
 nav {
+  background: #f6f6ff;
   margin: 0 auto;
 
 }
 
 nav ul {
-  justify-content: center;
-  text-align: center;
-  display: inline-flex;
-  list-style: none;
   color: #45A29E;
+  display: inline-flex;
   font-size: 2em;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
 }
 
 nav li > a, nav li.navAside {
-  margin: 10vh 0vw -4vh 11.25vw;
-  padding: 2%;
-  color: #45A29E;
-  line-height: 8vh;
-  width: 17vw;
-  text-align: center;
+  background: #f6f6ff;
   border: .1em solid #45A29E;
   box-sizing: border-box;
+  color: #45A29E;
+  line-height: 8vh;
+  margin: 10vh 0vw -4vh 11.25vw;
+  padding: 2%;
+  width: 17vw;
+  text-align: center;
   transition: all .3s ease-in-out;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
@@ -41,6 +44,7 @@ nav li > a, nav li.navAside {
 }
 
 #about-me {
+  /* background: #f6f6ff; */
   box-shadow: 1px 3px 0 #45A29E;
   color: #45A29E;
   padding: .5em 1em;
@@ -61,9 +65,9 @@ nav li > a, nav li.navAside {
 @media (max-width: 880px) {
 .about-me {
   height: 100vh;
-  box-shadow: inset 2vh 0vw 8vh 2vw #eeeeff;
-  -webkit-box-shadow: inset 0 16vw 1vh 7vw #eeeeff,
-                      inset 0 -2vw 1vh 8vw #eeeeff;
+  box-shadow: inset 2vh 0vw 8vh 2vw #f6f6ff;
+  -webkit-box-shadow: inset 0 16vw 1vh 7vw #f6f6ff,
+                      inset 0 -2vw 1vh 8vw #f6f6ff;
 }
 
 .about-me-blurb {

@@ -14,7 +14,7 @@ export default class Skills extends Component {
           <div className='skill-container'>
             <img
               id='skills_png'
-              src='https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/master/Html-logo-bw.png?raw=true'
+              src='https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/master/jeremy_z_portfolio/Html-logo-bw.png?raw=true'
               alt='spritehtml'
             />
             <img

@@ -14,27 +14,24 @@ export default class ContactMe extends Component {
           <h1>Contact Me</h1>
           <br />
           <h6>Name</h6>
-          <input
-            type='text'
-            name='name'
-            // placeholder='Your Name'
-          />
+            <input
+              type='text'
+              name='name'
+            />
           <h6>Email</h6>
-          <input
-            type='email'
-            name='_replyto'
-            // placeholder='Your Email'
-          />
-          <h6>Message</h6>
+            <input
+              type='email'
+              name='_replyto'
+            />
+            <h6>Message</h6>
           <textarea
             name='comments'
-            // placeholder='Type your message right here, and send it into the void!'
           />
-          <input
-            id='submit-button'
-            type='submit'
-            value='Contact Me'
-          />
+            <input
+              id='submit-button'
+              type='submit'
+              value='Contact Me'
+            />
         </form>
       </div>
     )
