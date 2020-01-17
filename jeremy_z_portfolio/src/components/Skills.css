@@ -33,8 +33,10 @@
 
 .skill-container {
   align-self: flex-end;
+  display: block;
   flex-direction: row;
   margin-bottom: 9rem;
+  text-align: center;
 }
 
 #skills_png {
@@ -116,9 +118,10 @@
 }
 
 .skill-container {
-  padding-bottom: 2vh;
+  left: -4vw;
+  padding-bottom: 10vh;
   position: absolute;
-  width: 85vw;
+  width: 100vw;
 }
 
 #skills_png {
