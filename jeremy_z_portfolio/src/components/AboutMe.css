@@ -111,25 +111,16 @@ nav li > a, nav li.navAside {
 
 @media (max-width: 414px) {
 .about-me {
-  background: #e6e8ec;
   height: 100vh;
 }
 
 .about-me-blurb {
-  color: #78797a;
+  /* color: #78797a; */
   font-size: 5.75vw;
   font-weight: 500;
   line-height: 5vh;
   padding: 0vh 9vw 0 7vw;
   width: 100vw;
-}
-
-.resume {
-
-}
-
-.github {
-
 }
 
 nav ul {
