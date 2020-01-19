@@ -1,15 +1,25 @@
 .projects__body {
-  width: 100%;
-  color: #206966;
   background: #f6f6ff;
-  margin-top: transparent;
+  color: #45A29E;
   font-size: 2vw;
+  margin-top: transparent;
   text-align: center;
+  width: 100%;
+}
+
+h5 {
+  margin-bottom: 4vh;
+  text-shadow: 3px 3px 2px rgba(0,0,0,0.6);
+}
+
+#tech-list {
+  color: black;
 }
 
 .main-header {
   font-family: 'Special Elite', cursive;
   margin: 6vw;
+  text-shadow: 3px 3px 2px rgba(0,0,0,0.6);
 }
 
 .appText {
@@ -43,12 +53,12 @@
   justify-content: space-around;
 }
 
-.project1,.project2,.project3 {
+.project1,.project2,.project3,.project4 {
   background: #f6f6ff;
   padding: 2vh 2vw 2.5vh;
   width: 68vw;
   margin: 0vh 2vw 6vh 0vw;
-  color: #206966;
+  color: #45A29E;
   font-size: 5vw;
   text-align: left;
   border-radius: 10px;
@@ -56,18 +66,6 @@
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-}
-
-.project4 {
-  background: #f6f6ff;
-  width: 68vw;
-  margin: 0vh 5vw -5vh 5vw;
-  color: #206966;
-  border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
 }
 
 img {
@@ -81,18 +79,24 @@ img {
 
 @media (max-width: 880px) {
 .projects__body {
-  width: 100vw;
-  font-weight: 600;
-  color: #206966;
   background: #f6f6ff;
+  color: #45A29E;
+  font-size: 3vw;
+  font-weight: 600;
   line-height: 2vh;
   padding: 1vh 1vw;
-  font-size: 3vw;
   text-align: center;
+  width: 100vw;
+}
+
+h5 {
+  font-size: 4.5vw;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
 }
 
 .main-header {
   margin: 9vh 8vw 8vh;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
 }
 
 .appText {
@@ -115,14 +119,14 @@ img {
   background: #f6f6ff;
   width: 70vw;
   margin: 1vh 5vw 6vh -13vw;
-  color: #206966;
+  color: #45A29E;
 }
 
 .project4 {
   background: #f6f6ff;
   width: 70vw;
   margin: 0vh 5vw 0vh -10vw;
-  color: #206966;
+  color: #45A29E;
 }
 
 img {
@@ -137,12 +141,18 @@ img {
 
 @media (max-width: 414px) {
 .projects__body {
+  color: #45A29E;
   width: 100vw;
-  color: #206966;
+}
+
+h5 {
+  font-size: 8vw;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
 }
 
 .main-header {
   font-size: 8vw;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
 }
 
 .appText {
@@ -164,7 +174,7 @@ img {
   background: #f6f6ff;
   padding: 0 9vw;
   width: 85vw;
-  color: #206966;
+  color: #45A29E;
   text-align: left;
 }
 

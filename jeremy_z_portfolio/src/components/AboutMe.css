@@ -7,8 +7,8 @@
   color: #45A29E;
   font-size: 2.6vw;
   text-align: left;
-  font-weight: 500;
-  padding: 14vh 14.5vw 0 16vw;
+  font-weight: 400;
+  padding: 15vh 14.5vw 0 16vw;
 }
 
 nav {
@@ -18,7 +18,6 @@ nav {
 }
 
 nav ul {
-  color: #45A29E;
   display: inline-flex;
   font-size: 2em;
   justify-content: center;
@@ -28,9 +27,7 @@ nav ul {
 
 nav li > a, nav li.navAside {
   background: #f6f6ff;
-  border: .1em solid #45A29E;
   box-sizing: border-box;
-  color: #45A29E;
   line-height: 8vh;
   margin: 10vh 0vw -4vh 11.25vw;
   padding: 2%;
@@ -44,17 +41,21 @@ nav li > a, nav li.navAside {
 }
 
 #about-me {
-  /* background: #f6f6ff; */
-  box-shadow: 1px 3px 0 #45A29E;
+  border-radius: 8px;
+  box-shadow: 5px 6px 10px 0 #000000a1;
   color: #45A29E;
   padding: .5em 1em;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
 }
 
 #about-me:hover {
-  background-color: #1F2833;
+  background-color: #bdebf1;
 }
 
 #about-me:active {
@@ -72,23 +73,19 @@ nav li > a, nav li.navAside {
 
 .about-me-blurb {
   font-size: 4.25vw;
-  line-height: 5vh;
-  font-weight: 500;
+  line-height: 6vh;
   padding: 6.5vh 10vw 0 12vw;
 }
 
 nav ul {
   display: inline-flex;
   margin: 0;
-  color: #45A29E;
   font-size: 3vw;
 }
 
 nav li > a, nav li.navAside {
-  margin: 8vh 0vw 5vh 10vw;
-  color: #45A29E;
-  line-height: 5vh;
-  border: .1em solid #45A29E;
+  margin: 8vh 0vw 1vh 10vw;
+  line-height: 4vh;
   box-sizing: border-box;
   transition: all .3s ease-in-out;
   -webkit-transition: all .3s ease-in-out;
@@ -98,13 +95,9 @@ nav li > a, nav li.navAside {
 }
 
 #about-me {
-  color: #45A29E;
+  box-shadow: 4px 4px 6px #000000a1;
   padding: .5em .5em;
   position: relative;
-}
-
-#about-me:hover {
-  background-color: #1F2833;
 }
 
 #about-me:active {
@@ -119,25 +112,20 @@ nav li > a, nav li.navAside {
 }
 
 .about-me-blurb {
-  /* color: #78797a; */
   font-size: 5.75vw;
-  font-weight: 500;
   line-height: 5vh;
   padding: 0vh 9vw 0 7vw;
   width: 100vw;
 }
 
 nav ul {
-  color: #45A29E;
   font-weight: 400;
   font-size: 1rem;
   margin: 0 auto;
 }
 
 nav li > a, nav li.navAside {
-  border: .1rem solid #45A29E;
   box-sizing: border-box;
-  color: #45A29E;
   line-height: 4vh;
   margin: 4vh 8.5vw 5vh -4.25vw;
   transition: all .3s ease-in-out;
@@ -148,7 +136,7 @@ nav li > a, nav li.navAside {
 }
 
 #about-me {
-  color: #45A29E;
+  box-shadow: 2px 2px 6px #000000a1;
   font-size: .9rem;
   position: relative;
   text-decoration: none;

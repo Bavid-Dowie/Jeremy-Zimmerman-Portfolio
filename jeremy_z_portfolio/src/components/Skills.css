@@ -8,7 +8,7 @@
 }
 
 .layer {
-  background-color: #bdbec1d9;
+  background-color: #bdbec1d7;
   display: flex;
   justify-content: center;
   height: 100%;
@@ -108,7 +108,7 @@
 
 .bio-photo  {
   height: 26vh;
-  margin-top: 7vh;
+  margin-top: 12vh;
   opacity: 0.9;
   border-radius: 50%;
   -webkit-border-radius: 50%;

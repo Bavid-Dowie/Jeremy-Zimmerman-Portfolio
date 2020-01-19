@@ -1,21 +1,6 @@
 import React, { Component } from 'react'
 import './Projects.css'
 
-// document.addEventListener('DOMContentLoaded', function () {
-//   window.addEventListener('scroll', stickyNav)
-//   window.onscroll = function () { stickyNav() }
-
-//   const header = document.getElementById('projects_jump')
-//   const sticky = header.offsetTop
-
-//   function stickyNav() {
-//     if (window.pageYOffset > sticky) {
-//       header.classList.remove('sticky')
-//     } else {
-//       header.classList.remove('sticky')
-//     }
-//   }
-// })
 class Projects extends Component {
   render() {
     return (
@@ -26,6 +11,7 @@ class Projects extends Component {
         <hr />
         <div className='projects'>
           <div id='col' className='project1'>
+            <h5>SoundCloud Music Aggregator</h5>
             <a href='http://webplayer-lite.surge.sh/main'>
               <img
                 src='https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/56bc90b1d3f435bf9bd71e10cbd68e7ab5bf3ab1/sc-player-screenshot.png?raw=true'
@@ -33,17 +19,15 @@ class Projects extends Component {
               />
             </a>
             <p className='appText'>
-              <h4>SoundCloud Music Aggregator</h4>
-              HTML, CSS, React.js, SoundCloud API
-              <br />
-              <br />
               An audio-media aggregator, which accesses the SoundCloud API to
               search for audio files by any keyword in order to populate audio
               players for users to be able to listen to their desired music
               selection.
+              <p id='tech-list'>HTML, CSS, React.js, SoundCloud API</p>
             </p>
           </div>
           <div id='col' className='project2'>
+            <h5>Sushi Zo</h5>
             <a href='http://uxwdi-sushizo.surge.sh/'>
               <img
                 src='https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/56bc90b1d3f435bf9bd71e10cbd68e7ab5bf3ab1/sushi-zo-screenshot.png?raw=true'
@@ -51,16 +35,14 @@ class Projects extends Component {
               />
             </a>
             <p className='appText'>
-              <h4>Sushi Zo</h4>
-              HTML, CSS, React.js
-              <br />
-              <br />
               An upgraded website built in collaboration with a team of UX/UI
               designers in order to create an visually pleasing and easily
               navigable single page site for a local restaurant.
+              <p id='tech-list'>HTML, CSS, React.js</p>
             </p>
           </div>
           <div id='col' className='project3'>
+            <h5>iterator</h5>
             <a href='https://iterator.surge.sh/'>
               <img
                 src='https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/56bc90b1d3f435bf9bd71e10cbd68e7ab5bf3ab1/iterator-screenshot.png?raw=true'
@@ -68,15 +50,14 @@ class Projects extends Component {
               />
             </a>
             <p className='appText'>
-              <h4>iterator</h4>
-              HTML, CSS, React.js, Express, Sequelize
-              <br />
-              <br />A coding ideas and solutions platform focused on letting
+              A coding ideas and solutions platform focused on letting
               developers share ideas and solutions in order to tackle the most
               difficult challenges faced in today's world.
+              <p id='tech-list'>HTML, CSS, React.js, Express, Sequelize</p>
             </p>
           </div>
           <div id='col' className='project4'>
+            <h5>LoopIt</h5>
             <a href='http://loopit.surge.sh/login'>
               <img
                 src='https://github.com/Bavid-Dowie/Jeremy-Zimmerman-Portfolio/blob/master/loopit-screenshot.png?raw=true'
@@ -84,14 +65,11 @@ class Projects extends Component {
               />
             </a>
             <p className='appText'>
-              <h4>LoopIt</h4>
-              HTML, CSS, React.js on Rails, Postgresql
-              <br />
-              <br />
               A fullstack application allowing users to create their own
               customized drumpad and loopstation. Users will ultimately be able
               to record their own short audio samples and create audio loops
               with their own custom drumpad.
+              <p id='tech-list'>HTML, CSS, React.js on Rails, Postgresql</p>
             </p>
           </div>
         </div>

@@ -1,5 +1,4 @@
 a {
-  margin: 0%;
   text-decoration: none;
   display: block;
 }
@@ -7,6 +6,7 @@ a {
 #header__body {
   background:#f6f6ff;
   color:#45A29E;
+  text-shadow: 3px 3px 2px rgba(0,0,0,0.6);
   width: 50vw;
 }
 
@@ -245,8 +245,9 @@ a {
 @media (max-width : 880px) {
   #header__body {
     height: 50vh;
-    padding-bottom: 0;
     margin-bottom: 0;
+    padding-bottom: 0;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
   }
 
   .glitch__header {
@@ -309,6 +310,7 @@ a {
 @media (max-width : 414px) {
 #header__body {
     height: 37vh;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
     width: 50vw;
   }
 
