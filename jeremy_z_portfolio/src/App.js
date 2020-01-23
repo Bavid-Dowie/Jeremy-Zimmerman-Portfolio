@@ -6,7 +6,7 @@ import HeaderBackground from './components/HeaderBackground'
 import Skills from './components/Skills'
 import ContactMe from './components/ContactMe'
 import Footer from './components/Footer'
-import './App.css'
+import './styles/style.css'
 
 function App() {
   return (

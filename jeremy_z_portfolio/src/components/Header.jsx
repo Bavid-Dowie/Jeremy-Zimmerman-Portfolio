@@ -1,5 +1,4 @@
-import React, { Component } from 'react'
-import './Header.css'
+import React, { Component } from 'react';
 
 class Header extends Component {
   constructor(props) {
