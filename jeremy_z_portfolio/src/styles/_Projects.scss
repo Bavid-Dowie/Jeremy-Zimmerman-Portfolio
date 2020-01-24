@@ -1,0 +1,192 @@
+.projects__body {
+  background: $main-bg-color;
+  color: $body-text-color;
+  line-height: 1.25;
+  font-size: 2vw;
+  margin-top: transparent;
+  text-align: center;
+  width: 100vw;
+}
+
+hr {
+  margin: 0 auto;
+  width: 95vw;
+}
+
+h5 {
+  margin-bottom: 7vh;
+  text-shadow: 3px 3px 2px rgba(0,0,0,0.6);
+}
+
+#tech-list {
+  color: black;
+}
+
+.main-header {
+  font-family: 'Special Elite', cursive;
+  margin: 6vw;
+  text-shadow: 3px 3px 2px rgba(0,0,0,0.6);
+}
+
+.appText {
+  text-align: left;
+  font-size: 2vw;
+  font-style: bold;
+  line-height: 6.5vh;
+  padding: 7vh 1.5vw 0vh 1.5vw;
+  margin-left: 2vw;
+}
+
+.appText4 {
+  text-align: left;
+  font-size: 2vw;
+  line-height: 6.5vh;
+  padding: 7vh 1.5vw 0vh 1.5vw;
+  margin-left: 2vw;
+}
+
+.projects {
+  padding: 4vw;
+  margin: 4vw;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: wrap;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.project1,.project2,.project3,.project4 {
+  background: $main-bg-color;
+  padding: 2vh 2vw 2.5vh;
+  width: 68vw;
+  margin: 0vh 2vw 6vh 0vw;
+  color: $main-text-color;
+  font-size: 5vw;
+  text-align: left;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+img {
+  width: 67vw;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+@media (max-width: 880px) {
+.projects__main {
+  font-size: 3vw;
+  font-weight: 600;
+  line-height: 2vh;
+  padding: 1vh 1vw;
+  text-align: center;
+  width: 100vw;
+}
+
+h5 {
+  font-size: 4.5vw;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+}
+
+.main-header {
+  margin: 9vh 8vw 8vh;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+}
+
+.appText {
+  text-align: left;
+  font-size: 3vw;
+  width: 86vw;
+  margin: 1vh 0 -2vh 0vw;
+  line-height: 4.5vh;
+}
+
+.appText4 {
+  text-align: left;
+  font-size: 3vw;
+  width: 88vw;
+  margin: 1vh 0 0 -1vw;
+  line-height: 4.5vh;
+}
+
+.project1,.project2,.project3 {
+  width: 70vw;
+  margin: 1vh 5vw 6vh -13vw;
+}
+
+.project4 {
+  width: 70vw;
+  margin: 0vh 5vw 0vh -10vw;
+}
+
+img {
+  width: 85vw;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+}
+
+@media (max-width: 414px) {
+.projects__body {
+  width: 100vw;
+}
+
+h5 {
+  font-size: 4.5vw;
+  line-height: 1.25;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+
+.main-header {
+  font-size: 8vw;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+
+.appText {
+  font-size: 5vw;
+  padding: 3vh 0 1vh 0;
+}
+
+.appText4 {
+  font-size: 5vw;
+  padding: 3vh 0 -1vh 0;
+}
+
+.projects {
+  padding: 5vh;
+  margin: 2vw;
+}
+
+.project1,.project2,.project3 {
+  padding: 0 9vw;
+  width: 85vw;
+  text-align: left;
+}
+
+.project4 {
+  width: 85vw;
+  margin: 0 10vw;
+}
+
+img {
+  width: 85vw;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+}
