@@ -41,9 +41,9 @@ nav li > a, nav li.navAside {
 
 #about-me {
   border-radius: 8px;
-  box-shadow: 5px 6px 10px 0 #000000a1;
+  box-shadow: 5px 6px 10px 0 #c4c4c4e3;
   color: $main-text-color;
-  padding: .5em 1em;
+  padding: 2%;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
@@ -94,8 +94,8 @@ nav li > a, nav li.navAside {
 }
 
 #about-me {
-  box-shadow: 4px 4px 6px #000000a1;
-  padding: .5em .5em;
+  box-shadow: 4px 4px 6px #c4c4c4e3;
+  padding: 2%;
   position: relative;
 }
 
@@ -135,7 +135,7 @@ nav li > a, nav li.navAside {
 }
 
 #about-me {
-  box-shadow: 2px 2px 6px #000000a1;
+  box-shadow: 2px 2px 6px #c4c4c4e3;
   font-size: .9rem;
   position: relative;
   text-decoration: none;
